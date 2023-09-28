@@ -19,11 +19,15 @@ public class problem01 extends Karel {
 //	
 	
 	public void run(){
-		move();
-		move();
-		pickBeeper();
-		move();
-		putBeeper();
+		for (int i = 0; i < 4; i++) {
+			move(); 
+			
+			
+			}
+		
+		
+		
+		
 	}
 	
 	
