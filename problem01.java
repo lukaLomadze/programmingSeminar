@@ -35,7 +35,7 @@ public class problem01 extends Karel {
 		move();
 		}
 	}
-	putBeeper();
+	//putBeeper();
 	
 	
 		
