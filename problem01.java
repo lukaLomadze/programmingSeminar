@@ -18,7 +18,8 @@ public class problem01 extends Karel {
 //	კარელს ჩანთაში უსასრულო რაოდენობის ბრილიანტი აქვს.
 //	
 	
-	public void run(){
+	/*//N2
+	 * public void run(){
 		
 		for (int i = 0; i < 4; i++) {
 			move(); 
@@ -31,6 +32,18 @@ public class problem01 extends Karel {
 		for (int i = 0; i < 10; i++) {
 			putBeeper(); 
 			}
+		*/
+	
+	
+	
+	//3
+	while(frontIsClear()){
+		move();
+	}
+	
+	
+	
+		
 		
 		
 		
