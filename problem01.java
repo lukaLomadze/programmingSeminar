@@ -40,6 +40,7 @@ public class problem01 extends Karel {
 	
 	//3
 	while (frontIsClear() ){
+		putBeeper();
 		move();
 	}
 	
