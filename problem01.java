@@ -29,30 +29,40 @@ public class problem01 extends Karel {
 //		putBeeper();
 //		}
 	
-		  //	6. კარელმა უნდა შეკრიბოს ორი რიცხვი, 2x1 უჯრაზე დევს n ცალი ბრილიანტი, 3x1 უჯრაზე m
-//	ცალი ბრილიანტი, კარელმა 4x1 უჯრაზე უნდა დადოს n+m ბრილიანტი. ჩათვალეთ, რომ
-//	კარელს ჩანთაში უსასრულო რაოდენობის ბრილიანტი აქვს.
 
 	//N6
-		int n = 0 ;
-		int m = 0;
-		move();
-		while(beepersPresent()){
-			n++;
-			pickBeeper();
-		}
-		move();
-		while(beepersPresent()){
-			m++;
-			pickBeeper();
-		}
-		 move();
-		for (int i = 0; i< m+n; i++){
-			putBeeper();
-		}
+//		int n = 0 ;
+//		int m = 0;
+//		move();
+//		while(beepersPresent()){
+//			n++;
+//			pickBeeper();
+//		}
+//		move();
+//		while(beepersPresent()){
+//			m++;
+//			pickBeeper();
+//		}
+//		 move();
+//		for (int i = 0; i< m+n; i++){
+//			putBeeper();
+//		}
+//		  move();
+//		  
+//		  
 		  
-		  
-		  
+		 //N7 
+		
+			while (frontIsClear() ){
+				if(noBeepersPresent()){
+				putBeeper();
+				}
+				move();
+				
+			}
+			if(noBeepersPresent()){
+				putBeeper();
+				}
 		  
 		  
 		  
