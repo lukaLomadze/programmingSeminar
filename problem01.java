@@ -73,7 +73,9 @@ public class problem01 extends Karel {
 			  turnLeft();
 			  move();
 			  turnLeft();
-		  }else{
+		  }
+		  
+		  if (facingWest()& notFacingEast()){
 			  turnLeft();
 			  turnLeft();
 			  turnLeft();
@@ -85,6 +87,8 @@ public class problem01 extends Karel {
 		  }
 		  
 		}
+		
+		
 		while (frontIsClear() ){
 			if(noBeepersPresent()){
 			putBeeper();
