@@ -52,7 +52,7 @@ public class problem01 extends Karel {
 //		  
 		  
 		 //N7 
-		int n = 0;
+		
 		
 		while(leftIsClear()){
 			while (frontIsClear() ){
@@ -60,7 +60,7 @@ public class problem01 extends Karel {
 				putBeeper();
 				}
 				move();
-				n++;
+				
 				
 			}
 			if(noBeepersPresent()){
@@ -85,7 +85,17 @@ public class problem01 extends Karel {
 		  }
 		  
 		}
-		  
+		while (frontIsClear() ){
+			if(noBeepersPresent()){
+			putBeeper();
+			}
+			move();
+			
+			
+		}
+		if(noBeepersPresent()){
+			putBeeper();
+			}
 		  
 		
 		
