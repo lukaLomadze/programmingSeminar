@@ -1,22 +1,7 @@
 import stanford.karel.Karel;
 
 public class problem01 extends Karel {
-	private void moveOnHorizon(){
-		while (frontIsClear() ){
-			if(noBeepersPresent()){
-			putBeeper();
-			}
-			move();
-			
-			
-		}
-		if(noBeepersPresent()){
-			putBeeper();
-			}
-		
-		
-		
-	} 
+	 
 	public void run(){
 		
 		 
@@ -115,4 +100,20 @@ public class problem01 extends Karel {
 		
 		
 	}	
+	private void moveOnHorizon(){
+		while (frontIsClear() ){
+			if(noBeepersPresent()){
+			putBeeper();
+			}
+			move();
+			
+			
+		}
+		if(noBeepersPresent()){
+			putBeeper();
+			}
+		
+		
+		
+	}
 }
