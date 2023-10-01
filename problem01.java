@@ -79,10 +79,11 @@ public class problem01 extends Karel {
 			  turnLeft();
 			  if(frontIsClear()){
 				  move();
+			   turnLeft();
+			  turnLeft();
+			  turnLeft();
 			  }
-			  turnLeft();
-			  turnLeft();
-			  turnLeft();
+			 
 			  
 		  }
 		  
