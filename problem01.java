@@ -89,7 +89,7 @@ public class problem01 extends Karel {
 		}
 		
 		
-		while (frontIsClear() ){
+		while (frontIsClear() && leftIsClear() ){
 			if(noBeepersPresent()){
 			putBeeper();
 			}
