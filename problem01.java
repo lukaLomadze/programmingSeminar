@@ -52,32 +52,44 @@ public class problem01 extends Karel {
 //		  
 		  
 		 //N7 
+		int n = 0;
 		
+		while(leftIsClear()){
 			while (frontIsClear() ){
 				if(noBeepersPresent()){
 				putBeeper();
 				}
 				move();
+				n++;
 				
 			}
 			if(noBeepersPresent()){
 				putBeeper();
 				}
+			
+			
+			
 		  if(facingEast()){
 			  turnLeft();
 			  move();
 			  turnLeft();
+		  }else{
+			  turnLeft();
+			  turnLeft();
+			  turnLeft();
+			  move();
+			  turnLeft();
+			  turnLeft();
+			  turnLeft();
+			  
 		  }
 		  
+		}
 		  
 		  
-		  
 		
 		
 		
 		
-	}
-	
-	
-	
+	}	
 }
