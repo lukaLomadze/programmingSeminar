@@ -42,11 +42,8 @@ public class problem01 extends Karel {
 			   turnLeft();
 			  turnLeft();
 			  turnLeft();
-			  }
-			 
-			  
+			  }  
 		  }
-		  
 		}
 		
 		moveOnHorizon();
