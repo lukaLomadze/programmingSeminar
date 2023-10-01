@@ -53,20 +53,36 @@ public class problem01 extends Karel {
 		  
 		 //N7 
 		
+		  
+		  
+		  static void movemen(){
+			  while (frontIsClear() ){
+					if(noBeepersPresent()){
+					putBeeper();
+					}
+					move();
+					
+					
+				}
+				if(noBeepersPresent()){
+					putBeeper();
+					}
+		  }
 		
 		while(leftIsClear()){
-			while (frontIsClear() ){
-				if(noBeepersPresent()){
-				putBeeper();
-				}
-				move();
-				
-				
-			}
-			if(noBeepersPresent()){
-				putBeeper();
-				}
 			
+//			while (frontIsClear() ){
+//				if(noBeepersPresent()){
+//				putBeeper();
+//				}
+//				move();
+//				
+//				
+//			}
+//			if(noBeepersPresent()){
+//				putBeeper();
+//				}
+			movemen();
 			
 			
 		  if(facingEast()){
@@ -85,20 +101,20 @@ public class problem01 extends Karel {
 		  }
 		  
 		}
-		while (frontIsClear() ){
-			if(noBeepersPresent()){
-			putBeeper();
-			}
-			move();
-			
-			
-		}
-		if(noBeepersPresent()){
-			putBeeper();
-			}
-		  
+//		while (frontIsClear() ){
+//			if(noBeepersPresent()){
+//			putBeeper();
+//			}
+//			move();
+//			
+//			
+//		}
+//		if(noBeepersPresent()){
+//			putBeeper();
+//			}
+//		  
 		
-		
+		movemen();
 		
 		
 	}	
