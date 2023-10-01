@@ -73,13 +73,13 @@ public class problem01 extends Karel {
 			  turnLeft();
 			  move();
 			  turnLeft();
-		  }
-		  
-		  if (facingWest()& notFacingEast()){
+		  }else{
 			  turnLeft();
 			  turnLeft();
 			  turnLeft();
-			  move();
+			  if(frontIsClear()){
+				  move();
+			  }
 			  turnLeft();
 			  turnLeft();
 			  turnLeft();
