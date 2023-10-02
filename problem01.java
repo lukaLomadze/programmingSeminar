@@ -2,54 +2,74 @@ import stanford.karel.Karel;
 
 public class problem01 extends Karel {
 	 
-	private void moveOnHorizon(){
-		while (frontIsClear() ){
-			if(noBeepersPresent()){
-			putBeeper();
-			}
-			move();
-			
-			
-		}
-		if(noBeepersPresent()){
-			putBeeper();
-			}
-		
-		
-		
-	}
-	
+//	private void moveOnHorizon(){
+//		while (frontIsClear() ){
+//			if(noBeepersPresent()){
+//			putBeeper();
+//			}
+//			move();
+//			
+//			
+//		}
+//		if(noBeepersPresent()){
+//			putBeeper();
+//			}
+//		
+//		
+//		
+//	}
+//	
 	public void run(){
 		
 	
 		  
-		 //N7 
+		 
 
-		while(leftIsClear()){
-			moveOnHorizon();
-			
-			
-		  if(facingEast()){
-			  turnLeft();
-			  move();
-			  turnLeft();
-		  }else{
-			  turnLeft();
-			  turnLeft();
-			  turnLeft();
-			  if(frontIsClear()){
-				  move();
-			   turnLeft();
-			  turnLeft();
-			  turnLeft();
-			  }  
-		  }
-		}
+//		while(leftIsClear()){
+//			moveOnHorizon();
+//			
+//			
+//		  if(facingEast()){
+//			  turnLeft();
+//			  move();
+//			  turnLeft();
+//		  }else{
+//			  turnLeft();
+//			  turnLeft();
+//			  turnLeft();
+//			  if(frontIsClear()){
+//				  move();
+//			   turnLeft();
+//			  turnLeft();
+//			  turnLeft();
+//			  }  
+//		  }
+//		}
+//		
+//		moveOnHorizon();
+//
+//		
+//		
+//		
 		
-		moveOnHorizon();
-
-		
-		
+		int n = 0 ;
+	int m = 0;
+	move();
+	while(beepersPresent()){
+		n++;
+		pickBeeper();
+	}
+	move();
+	while(beepersPresent()){
+		m++;
+		pickBeeper();
+	}
+	 move();
+	for (int i = 0; i< m+n; i++){
+		putBeeper();
+	}
+	  move();
+	
 		
 	}}	
 	
@@ -80,23 +100,7 @@ public class problem01 extends Karel {
 
 
 //N6
-//	int n = 0 ;
-//	int m = 0;
-//	move();
-//	while(beepersPresent()){
-//		n++;
-//		pickBeeper();
-//	}
-//	move();
-//	while(beepersPresent()){
-//		m++;
-//		pickBeeper();
-//	}
-//	 move();
-//	for (int i = 0; i< m+n; i++){
-//		putBeeper();
-//	}
-//	  move();
+//	
 //	  
 //	  
 	
