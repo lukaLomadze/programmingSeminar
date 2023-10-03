@@ -17,9 +17,11 @@ public class problem11 extends SuperKarel{
 			putBeeper();
 			move();
 			putBeeper();
+			turnAround();
 			
 			while(beepersPresent()){
 				pickBeeper();
+				
 				move();
 				move();
 				move();
@@ -53,6 +55,7 @@ public class problem11 extends SuperKarel{
 		
 	
 	}
+}
 //	private void gasayofi(){
 //		move();
 //		while(beepersPresent()){
@@ -77,4 +80,4 @@ public class problem11 extends SuperKarel{
 //		move();
 //		
 //	}
-}
+
