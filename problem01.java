@@ -2,27 +2,76 @@ import stanford.karel.Karel;
 
 public class problem01 extends Karel {
 	 
-//	private void moveOnHorizon(){
-//		while (frontIsClear() ){
-//			if(noBeepersPresent()){
-//			putBeeper();
-//			}
-//			move();
-//			
-//			
-//		}
-//		if(noBeepersPresent()){
-//			putBeeper();
-//			}
-//		
-//		
-//		
-//	}
+	private void moveOnHorizon(){
+		while (frontIsClear() ){
+			if(noBeepersPresent()){
+			putBeeper();
+			}
+			move();
+			
+			
+		}
+		if(noBeepersPresent()){
+			putBeeper();
+			}
+		
+		
+		
+	}
 	
 	public void run(){
 		
 	
-//		if(!leftIsClear()){
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	
+		
+		  
+		 
+
+		while(leftIsClear()){
+			moveOnHorizon();
+			
+			
+		  if(facingEast()){
+			  turnLeft();
+			  move();
+			  turnLeft();
+		  }else{
+			  turnLeft();
+			  turnLeft();
+			  turnLeft();
+			  if(frontIsClear()){
+				  move();
+			   turnLeft();
+			  turnLeft();
+			  turnLeft();
+			  }  
+		  }
+		}
+		
+		moveOnHorizon();
+
+		
+		
+		
+	}}	
+	//		if(!leftIsClear()){
 //			while(noBeepersPresent()){
 //				putBeeper();
 //				if(frontIsClear()){
@@ -33,39 +82,6 @@ public class problem01 extends Karel {
 //			
 //			
 //		}
-	
-		
-		  
-		 
-//
-//		while(leftIsClear()){
-//			moveOnHorizon();
-//			
-//			
-//		  if(facingEast()){
-//			  turnLeft();
-//			  move();
-//			  turnLeft();
-//		  }else{
-//			  turnLeft();
-//			  turnLeft();
-//			  turnLeft();
-//			  if(frontIsClear()){
-//				  move();
-//			   turnLeft();
-//			  turnLeft();
-//			  turnLeft();
-//			  }  
-//		  }
-//		}
-//		
-//		moveOnHorizon();
-
-		
-		
-		
-	}}	
-	
 	//N2	 
 //	for (int i = 0; i < 4; i++) {
 //		move(); 
