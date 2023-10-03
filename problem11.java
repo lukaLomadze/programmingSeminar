@@ -10,7 +10,7 @@ public class problem11 extends SuperKarel{
 	}
 	private void gasayofi(){
 		move();
-		while(beeperPresent()){
+		while(beepersPresent()){
 			pickBeeper();
 			turnLeft();
 			move();
