@@ -4,32 +4,63 @@ public class problem11 extends SuperKarel{
 
 	public void run(){
 		
-		
-		
-	
-	}
-	private void gasayofi(){
+		move();
 		move();
 		while(beepersPresent()){
 			pickBeeper();
-			turnLeft();
-			move();
 			turnAround();
 			move();
-			turnRight();
+			pickBeeper();
+			turnAround();
 			move();
+			move();
+			putBeeper();
 			move();
 			putBeeper();
 			
 			
 			
 		}
-	}
-	private void gamyofi(){
-		move();
-		move();
-		pickBeeper();
-		move();
 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
 	}
+//	private void gasayofi(){
+//		move();
+//		while(beepersPresent()){
+//			pickBeeper();
+//			turnLeft();
+//			move();
+//			turnAround();
+//			move();
+//			turnRight();
+//			move();
+//			move();
+//			putBeeper();
+//			
+//			
+//			
+//		}
+//	}
+//	private void gamyofi(){
+//		move();
+//		move();
+//		pickBeeper();
+//		move();
+//		
+//	}
 }
