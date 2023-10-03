@@ -12,35 +12,35 @@ public class problem11 extends SuperKarel{
 			pickBeeper();
 			turnAround();
 			move();
+			turnAround();
 			while(beepersPresent()){
 			pickBeeper();
-			turnAround();
 			move();
 			move();
 			putBeeper();
 			move();
 			putBeeper();
-			turnAround();
+			
 			}
 		}
 			
 			
-			while(beepersPresent()){
-				pickBeeper();
-				
-				move();
-				move();
-				move();
-				putBeeper();
-				turnAround();
-				move();
-				move();
-				move();
-				turnAround();
-				
-				
-			}
-			move();
+//			while(beepersPresent()){
+//				pickBeeper();
+//				
+//				move();
+//				move();
+//				move();
+//				putBeeper();
+//				turnAround();
+//				move();
+//				move();
+//				move();
+//				turnAround();
+//				
+//				
+//			}
+//			move();
 			
 		
 		
