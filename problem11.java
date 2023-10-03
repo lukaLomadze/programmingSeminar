@@ -7,5 +7,29 @@ public class problem11 extends SuperKarel{
 		
 		
 	
-	}	
+	}
+	private void gasayofi(){
+		move();
+		while(beeperPresent()){
+			pickBeeper();
+			turnLeft();
+			move();
+			turnAround();
+			move();
+			turnRight();
+			move();
+			move();
+			putBeeper();
+			
+			
+			
+		}
+	}
+	private void gamyofi(){
+		move();
+		move();
+		pickBeeper();
+		move();
+		
+	}
 }
