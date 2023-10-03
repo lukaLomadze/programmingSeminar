@@ -22,19 +22,18 @@ public class problem01 extends Karel {
 	public void run(){
 		
 	
-		if(!leftIsClear()){
-			while(noBeepersPresent()){
-				putBeeper();
-				if(frontIsClear()){
-					move();
-				}
-				
-			}
-			
-			
-		}
-		
-		
+//		if(!leftIsClear()){
+//			while(noBeepersPresent()){
+//				putBeeper();
+//				if(frontIsClear()){
+//					move();
+//				}
+//				
+//			}
+//			
+//			
+//		}
+	
 		
 		  
 		 

@@ -1,4 +1,29 @@
+import stanford.karel.*;
 
-public class problem06 {
+
+public class problem06 extends SuperKarel{
+	public void run(){
+		move();
+		while(beepersPresent()){
+			pickBeeper();
+			move();
+			move();
+			putBeeper();
+			
+			
+			
+			turnAround();
+		move();
+		move();
+		turnAround();
+			
+		}
+		
+		
+	
+		
+		
+		
+	}
 
 }
