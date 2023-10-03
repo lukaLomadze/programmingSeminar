@@ -7,39 +7,28 @@ public class problem01 extends SuperKarel {
 			if(noBeepersPresent()){
 			putBeeper();
 			}
-			move();
-			
-			
+			move();	
 		}
 		if(noBeepersPresent()){
 			putBeeper();
-			}
-		
-		
-		
+		}	
 	}
 	
 	public void run(){
 		
-	
 		
 		
-		 
-
 		while(leftIsClear()){
 			moveOnHorizon();
-			
-			
 		  if(facingEast()){
 			  turnLeft();
 			  move();
 			  turnLeft();
 		  }else{
 			  turnRight();
-			  
 			  if(frontIsClear()){
 				  move();
-			   turnRight();
+				  turnRight();
 			  
 			  }  
 		  }
@@ -50,7 +39,21 @@ public class problem01 extends SuperKarel {
 		
 		
 		
-	}}	
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 	//		if(!leftIsClear()){
 //			while(noBeepersPresent()){
 //				putBeeper();
@@ -108,14 +111,3 @@ public class problem01 extends SuperKarel {
 //	  move();
 //	  
 //	  
-
-
-
-
-
-
-/* 
- * 
- */
- 
-	
