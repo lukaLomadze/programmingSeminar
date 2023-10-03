@@ -4,7 +4,37 @@ public class problem11 extends SuperKarel{
 
 	public void run(){
 		
-		move();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	/*	move();
 		move();
 		
 		
@@ -14,44 +44,45 @@ public class problem11 extends SuperKarel{
 			move();
 			turnAround();
 			while(beepersPresent()){
-			pickBeeper();
-			move();
-			move();
-			putBeeper();
-			move();
-			putBeeper();
-			turnAround();
-			move();
-			move();
-			move();
-			turnAround();
-			
-			}
-		
-		move();
-		move();
-		move();
-		
-		move();
-		putBeeper();
-		turnAround();
-		move();
-		turnAround();
-			while(beepersPresent()){
 				pickBeeper();
-				turnAround();
 				move();
 				move();
+				putBeeper();
 				move();
 				putBeeper();
 				turnAround();
 				move();
 				move();
 				move();
-				
-				
+				turnAround();
 				
 			}
+		
+			move();
+			move();
+			move();
+			
+			move();
+			putBeeper();
+			turnAround();
+			move();
+			turnAround();
+				
+				while(beepersPresent()){
+					pickBeeper();
+					turnAround();
+					move();
+					move();
+					move();
+					putBeeper();
+					turnAround();
+					move();
+					move();
+					move();
+					
+					
+					
+				}
 			turnAround();
 			move();
 			move();
@@ -59,7 +90,7 @@ public class problem11 extends SuperKarel{
 		
 		
 		
-	}
+		}
 		
 		
 		move();
@@ -75,11 +106,8 @@ public class problem11 extends SuperKarel{
 			putBeeper();
 			move();
 			move();
-			move();
-			
-			
-			
-		}
+			move();	
+		}*/
 		
 		
 		
@@ -93,28 +121,3 @@ public class problem11 extends SuperKarel{
 	
 	}
 }
-//	private void gasayofi(){
-//		move();
-//		while(beepersPresent()){
-//			pickBeeper();
-//			turnLeft();
-//			move();
-//			turnAround();
-//			move();
-//			turnRight();
-//			move();
-//			move();
-//			putBeeper();
-//			
-//			
-//			
-//		}
-//	}
-//	private void gamyofi(){
-//		move();
-//		move();
-//		pickBeeper();
-//		move();
-//		
-//	}
-

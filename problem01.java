@@ -24,24 +24,6 @@ public class problem01 extends Karel {
 	
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
-	
-		
-		  
 		 
 
 		while(leftIsClear()){
