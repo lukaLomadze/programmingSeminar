@@ -1,6 +1,6 @@
-import stanford.karel.Karel;
+import stanford.karel.SuperKarel;
 
-public class problem01 extends Karel {
+public class problem01 extends SuperKarel {
 	 
 	private void moveOnHorizon(){
 		while (frontIsClear() ){
@@ -35,14 +35,12 @@ public class problem01 extends Karel {
 			  move();
 			  turnLeft();
 		  }else{
-			  turnLeft();
-			  turnLeft();
-			  turnLeft();
+			  turnRight();
+			  
 			  if(frontIsClear()){
 				  move();
-			   turnLeft();
-			  turnLeft();
-			  turnLeft();
+			   turnRight();
+			  
 			  }  
 		  }
 		}
