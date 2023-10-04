@@ -34,7 +34,7 @@ public class problem11 extends SuperKarel{
 		
 		
 		
-	/*	move();
+	move();
 		move();
 		
 		
@@ -107,7 +107,7 @@ public class problem11 extends SuperKarel{
 			move();
 			move();
 			move();	
-		}*/
+		}
 		
 		
 		
