@@ -43,10 +43,11 @@ public class problem11 extends SuperKarel{
 				
 			
 			}
-//			move
-//			move
-//			putBeeper
-//			turnAround 
+			turnAround ();
+			move();
+			move();
+			turnAround();
+			
 			
 			
 		}		
