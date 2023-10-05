@@ -1,7 +1,11 @@
 import stanford.karel.SuperKarel;
 
 public class problem01 extends SuperKarel {
-	 
+	 public void run(){
+		 
+	 }
+}
+		 
 //	private void moveOnHorizon(){	
 //		while (frontIsClear() ){
 //			if(noBeepersPresent()){
@@ -14,7 +18,7 @@ public class problem01 extends SuperKarel {
 //		}	
 //	}
 //	
-	public void run(){
+	
 //		
 //		
 //		
@@ -39,8 +43,7 @@ public class problem01 extends SuperKarel {
 //		
 		
 		
-	}
-}
+
 
 
 
