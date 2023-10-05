@@ -5,7 +5,21 @@ public class problem01 extends SuperKarel {
 	private void moveOnHorizon(){
 		
 		
-		
+		move();
+		while(beepersPresent()){
+			move();
+			while(beepersPresent()){
+				pickBeeper();
+			move();
+			putBeeper();
+			move();
+			putBeeper();
+				
+			}
+			
+			
+			
+		}		
 		
 		
 		
