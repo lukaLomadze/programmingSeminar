@@ -25,8 +25,10 @@ public class problem11 extends SuperKarel{
 			move();
 			
 			turnAround();
-			move();
+			
 			}
+			move();
+			
 			while(beepersPresent()){
 				pickBeeper();
 				turnAround();
