@@ -8,10 +8,10 @@ public class problem11 extends SuperKarel{
 	while(beepersPresent()){
 		pickBeeper();
 		move();
-		move();
-		putBeeper();
+		if(beepersPresent()){
+			pickBeeper();
+		}
 		turnAround();
-		move();
 		move();
 		turnAround();
 		
@@ -19,40 +19,40 @@ public class problem11 extends SuperKarel{
 		
 	}
 		
-		move();
-		while(beepersPresent()){
-			pickBeeper();
-			move();
-			if(beepersPresent()){
-				pickBeeper();	
-			}else{
-				move();
-				move();
-				putBeeper();
-				putBeeper();
-				putBeeper();
-				turnAround();
-				move();
-				turnAround();
-			}
-			
-			turnAround();
-			move();
-			turnAround();
-			
-		}
-		
-		move();
-		if(beepersPresent()){
-			move();
-			putBeeper();
-			putBeeper();
-		}else{
-			move();
-			putBeeper();
-		}
-		
-		
+//		move();
+//		while(beepersPresent()){
+//			pickBeeper();
+//			move();
+//			if(beepersPresent()){
+//				pickBeeper();	
+//			}else{
+//				move();
+//				move();
+//				putBeeper();
+//				putBeeper();
+//				putBeeper();
+//				turnAround();
+//				move();
+//				turnAround();
+//			}
+//			
+//			turnAround();
+//			move();
+//			turnAround();
+//			
+//		}
+//		
+//		move();
+//		if(beepersPresent()){
+//			move();
+//			putBeeper();
+//			putBeeper();
+//		}else{
+//			move();
+//			putBeeper();
+//		}
+//		
+//		
 		
 		
 		
