@@ -24,7 +24,7 @@ public class problem11 extends SuperKarel{
 			pickBeeper();
 			move();
 			if(beepersPresent()){
-				pickBeeper()	
+				pickBeeper();	
 			}else{
 				move();
 				putBeeper();
