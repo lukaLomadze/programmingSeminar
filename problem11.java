@@ -40,15 +40,15 @@ public class problem11 extends SuperKarel{
 			
 		}
 		
-		move();
-		if(beepersPresent()){
-			move();
-			putBeeper();
-			putBeeper();
-		}else{
-			move();
-			putBeeper();
-		}
+//		move();
+//		if(beepersPresent()){
+//			move();
+//			putBeeper();
+//			putBeeper();
+//		}else{
+//			move();
+//			putBeeper();
+//		}
 		
 		
 		
