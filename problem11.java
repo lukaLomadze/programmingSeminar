@@ -5,14 +5,14 @@ public class problem11 extends SuperKarel{
 	public void run(){
 	
 	move();
-	aa:
+	
 	while(beepersPresent()){
 		pickBeeper();
 		move();
 		if(beepersPresent()){
 			pickBeeper();
 		}else{
-			break aa;
+			break;
 		}
 		turnAround();
 		move();
