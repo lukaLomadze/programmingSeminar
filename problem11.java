@@ -31,10 +31,12 @@ public class problem11 extends SuperKarel{
 				putBeeper();
 				putBeeper();
 				putBeeper();
+				turnAround();
+				move();
+				turnAround();
 			}
 			
 			turnAround();
-			move();
 			move();
 			turnAround();
 			
