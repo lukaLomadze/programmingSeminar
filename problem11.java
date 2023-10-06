@@ -10,6 +10,8 @@ public class problem11 extends SuperKarel{
 		move();
 		if(beepersPresent()){
 			pickBeeper();
+		}else{
+			break;
 		}
 		turnAround();
 		move();
