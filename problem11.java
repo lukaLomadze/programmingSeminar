@@ -27,30 +27,30 @@ public class problem11 extends SuperKarel{
 //	n<m 3
 //	n>m 2
 //	n=m 1
-	if(beepersPresent()){
-		move();
-		move();
-		putBeeper();
-		putBeeper();
-	}
-	
-	if(noBeepersPresent()){
-		move();
-		if(noBeepersPresent()){
-			move();
-			putBeeper();
-		}
-		
-	}
-	move();
-	if(beepersPresent()){
-		move();
-		putBeeper();
-		putBeeper();
-		putBeeper();
-	}
-	
-	
+//	if(beepersPresent()){
+//		move();
+//		move();
+//		putBeeper();
+//		putBeeper();
+//	}
+//	
+//	if(noBeepersPresent()){
+//		move();
+//		if(noBeepersPresent()){
+//			move();
+//			putBeeper();
+//		}
+//		
+//	}
+//	move();
+//	if(beepersPresent()){
+//		move();
+//		putBeeper();
+//		putBeeper();
+//		putBeeper();
+//	}
+//	
+//	
 	
 	
 		
