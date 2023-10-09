@@ -15,8 +15,11 @@ public class dav4 extends SuperKarel{
 		
 		
 	}
-		
-		
+		turnRight();
+		while(frontIsClear()){
+			move();
+		}
+		putBeeper();
 		
 		
 		
