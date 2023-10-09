@@ -7,7 +7,9 @@ public class dav4 extends SuperKarel{
 		move();
 		turnLeft();
 		move();
+		if(frontIsClear()){
 		move();
+		}
 		turnRight();
 		
 		
