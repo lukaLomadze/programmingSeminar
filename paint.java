@@ -1,5 +1,6 @@
 import java.awt.Color;
 
+import acm.graphics.GOval;
 import acm.graphics.GRect;
 import acm.program.GraphicsProgram;
 
@@ -26,5 +27,9 @@ public class paint extends GraphicsProgram{
 	door.setColor(Color.black);
 	add(door, 170, 200);
 	
+	GOval handle = new GOval(10, 10)
+	door.setFilled(true);
+	door.setColor(Color.white);
+		add(handle,180, 250);	
 	}
 }
