@@ -13,11 +13,13 @@ public class paint extends GraphicsProgram{
 	GRect rect2 = new GRect(40, 90);
 	rect2.setFilled(true);
 	rect2.setColor(Color.blue);
-	add(rect2, 130, 130);
-	//add(rect2, 240, 130);
+	add(rect2, 120, 130);
 	
 	
-	
+	GRect rect3 = new GRect(40, 90);
+	rect3.setFilled(true);
+	rect3.setColor(Color.blue);
+	add(rect2, 240, 130);
 	
 	
 	}
