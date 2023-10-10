@@ -8,9 +8,12 @@ public class paint extends GraphicsProgram{
 	GRect rect = new GRect(200, 200);
 	rect.setFilled(true);
 	rect.setColor(Color.red);
-
-
 	add(rect, 100, 100);
+	GRect rect2 = new GRect(50, 50);
+	rect2.setFilled(true);
+	rect2.setColor(Color.blue);
+	add(rect2, 130, 130);
+	add(rect2, 220, 130);
 	
 	
 	}
