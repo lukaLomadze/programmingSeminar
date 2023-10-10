@@ -17,10 +17,10 @@ public class paint extends GraphicsProgram{
 	add(rect2, 120, 130);
 	
 	
-	GRect rect3 = new GRect(40, 90);
-	rect3.setFilled(true);
-	rect3.setColor(Color.blue);
-	add(rect3, 240, 130);
+	 rect2 = new GRect(40, 90);
+	rect2.setFilled(true);
+	rect2.setColor(Color.blue);
+	add(rect2, 240, 130);
 	
 	GRect door = new GRect(60, 100);
 	door.setFilled(true);
@@ -30,8 +30,10 @@ public class paint extends GraphicsProgram{
 	GOval handle = new GOval(10, 10);
 	handle.setFilled(true);
 	handle.setColor(Color.white);
-		add(handle,180, 250);	
+	add(handle,180, 250);	
 		
+	
+	G
 		
 		
 		
