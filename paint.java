@@ -13,7 +13,7 @@ public class paint extends GraphicsProgram{
 	rect2.setFilled(true);
 	rect2.setColor(Color.blue);
 	add(rect2, 130, 130);
-	add(rect2, 220, 130);
+	add(rect2, 230, 130);
 	
 	
 	}
