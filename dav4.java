@@ -11,7 +11,7 @@ public class dav4 extends ConsoleProgram{
 		
 		int l = readInt("your age :");
 		
-		println(l);
+		println("ბყსჰ");
 		
 		
 		
