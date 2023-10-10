@@ -28,8 +28,13 @@ public class paint extends GraphicsProgram{
 	add(door, 170, 200);
 	
 	GOval handle = new GOval(10, 10);
-	door.setFilled(true);
-	door.setColor(Color.white);
+	handle.setFilled(true);
+	handle.setColor(Color.white);
 		add(handle,180, 250);	
+		
+		
+		
+		
+		
 	}
 }
