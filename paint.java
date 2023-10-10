@@ -33,9 +33,10 @@ public class paint extends GraphicsProgram{
 	handle.setColor(Color.white);
 	add(handle,180, 250);	
 		
-	GLine roof = new GLine(200, 50, 100,100);
-	add(roof);
-		
+	GLine roof1 = new GLine(200, 50, 100,100);
+	add(roof1);
+	GLine roof2 = new GLine(200, 50, 300,100);
+	add(roof2);
 		
 		
 		
