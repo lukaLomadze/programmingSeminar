@@ -18,8 +18,6 @@ public class paint extends GraphicsProgram{
 	
 	
 	 rect2 = new GRect(40, 90);
-	rect2.setFilled(true);
-	rect2.setColor(Color.blue);
 	add(rect2, 240, 130);
 	
 	GRect door = new GRect(60, 100);
