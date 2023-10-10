@@ -2,45 +2,53 @@ import stanford.karel.SuperKarel;
 
 public class problem01 extends SuperKarel {
 	 public void run(){
+		while(leftIsClear()){
+			moveOnHorizon();
+		  if(facingEast()){
+			  turnLeft();
+			  move();
+			  turnLeft();
+		  }else{
+			  turnRight();
+			  if(frontIsClear()){
+				  move();
+				  turnRight();
+			  
+			  }  
+		  }
+		}
+		
+		moveOnHorizon();
+
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
 		 
 	 }
+	 
+	 	 
+	private void moveOnHorizon(){	
+		while (frontIsClear() ){
+			if(noBeepersPresent()){
+			putBeeper();
+			}
+			move();	
+		}
+		if(noBeepersPresent()){
+			putBeeper();
+		}	
+	}
 }
-		 
-//	private void moveOnHorizon(){	
-//		while (frontIsClear() ){
-//			if(noBeepersPresent()){
-//			putBeeper();
-//			}
-//			move();	
-//		}
-//		if(noBeepersPresent()){
-//			putBeeper();
-//		}	
-//	}
-//	
 	
-//		
-//		
-//		
-//		while(leftIsClear()){
-//			moveOnHorizon();
-//		  if(facingEast()){
-//			  turnLeft();
-//			  move();
-//			  turnLeft();
-//		  }else{
-//			  turnRight();
-//			  if(frontIsClear()){
-//				  move();
-//				  turnRight();
-//			  
-//			  }  
-//		  }
-//		}
-//		
-//		moveOnHorizon();
-//
-//		
 		
 		
 
@@ -57,17 +65,6 @@ public class problem01 extends SuperKarel {
 
 
 
-	//		if(!leftIsClear()){
-//			while(noBeepersPresent()){
-//				putBeeper();
-//				if(frontIsClear()){
-//					move();
-//				}
-//				
-//			}
-//			
-//			
-//		}
 	//N2	 
 //	for (int i = 0; i < 4; i++) {
 //		move(); 
