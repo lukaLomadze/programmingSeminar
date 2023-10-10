@@ -1,5 +1,6 @@
 import java.awt.Color;
 
+import acm.graphics.GLine;
 import acm.graphics.GOval;
 import acm.graphics.GRect;
 import acm.program.GraphicsProgram;
@@ -17,7 +18,9 @@ public class paint extends GraphicsProgram{
 	add(rect2, 120, 130);
 	
 	
-	 rect2 = new GRect(40, 90);
+	rect2 = new GRect(40, 90);
+	rect2.setFilled(true);
+	rect2.setColor(Color.blue);
 	add(rect2, 240, 130);
 	
 	GRect door = new GRect(60, 100);
@@ -30,7 +33,7 @@ public class paint extends GraphicsProgram{
 	handle.setColor(Color.white);
 	add(handle,180, 250);	
 		
-	
+	GLine roof = new GLine(100, 50, 100,100)
 
 		
 		
