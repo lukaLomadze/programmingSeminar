@@ -33,7 +33,7 @@ public class paint extends GraphicsProgram{
 	add(handle,180, 250);	
 		
 	
-	G
+
 		
 		
 		
