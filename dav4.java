@@ -1,19 +1,12 @@
+import acm.graphics.GRect;
 import acm.program.ConsoleProgram;
+import acm.program.GraphicsProgram;
 import stanford.karel.SuperKarel;
 
-public class dav4 extends ConsoleProgram{
+public class dav4 extends GraphicsProgram{
 	public void run(){
 	
-		print("luka");
-		print("luka");
-		println("luka");
-		println("luka");
-		
-		int l = readInt("your age :");
-		
-		println("ბყსჰ");
-		
-		
+		GRect rect = new GRect (50, 50);
 		
 		
 		
