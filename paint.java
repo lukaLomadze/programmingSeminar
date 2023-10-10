@@ -21,6 +21,10 @@ public class paint extends GraphicsProgram{
 	rect3.setColor(Color.blue);
 	add(rect3, 240, 130);
 	
+	GRect door = new GRect(60, 100);
+	door.setFilled(true);
+	door.setColor(Color.black);
+	add(door, 170, 200);
 	
 	}
 }
