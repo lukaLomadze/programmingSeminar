@@ -2,6 +2,7 @@ import java.awt.Color;
 
 import acm.graphics.GLine;
 import acm.graphics.GOval;
+import acm.graphics.GPolygon;
 import acm.graphics.GRect;
 import acm.program.GraphicsProgram;
 
@@ -38,6 +39,8 @@ public class paint extends GraphicsProgram{
 	GLine roof2 = new GLine(200, 50, 300,100);
 	add(roof2);
 		
+	
+	//GPolygon g = new GPolygon()
 		
 		
 	}
