@@ -9,6 +9,8 @@ public class dav4 extends ConsoleProgram{
 		println("luka");
 		println("luka");
 		
+		int l = readInt("your age :");
+		
 		
 		
 		
