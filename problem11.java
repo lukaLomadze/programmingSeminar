@@ -4,52 +4,68 @@ public class problem11 extends SuperKarel{
 
 	public void run(){
 
-		//divide
-		move();
-		while(beepersPresent()){
-			move();
-			while(beepersPresent()){	
-			pickBeeper();
-			
-			turnAround();
-			move();
-			pickBeeper();
-			turnAround();
-			move();
-			move();
-			putBeeper();
-			
-			
-			turnAround();
-			move();
-			
-			turnAround();
-			
-			}
-			move();
-			move();
-			putBeeper();
-			turnAround();
-			move();
-			turnAround();
-			while(beepersPresent()){
-				pickBeeper();
-				turnAround();
-				move();
-				putBeeper();
-				turnAround();
-				move();
-				
-			
-			}
-			turnAround ();
-			move();
-			move();
-			turnAround();
-			
-			
-			
-		}		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+//		move();
+//		while(beepersPresent()){
+//			move();
+//			while(beepersPresent()){	
+//			pickBeeper();
+//			
+//			turnAround();
+//			move();
+//			pickBeeper();
+//			turnAround();
+//			move();
+//			move();
+//			putBeeper();
+//			
+//			
+//			turnAround();
+//			move();
+//			
+//			turnAround();
+//			
+//			}
+//			move();
+//			move();
+//			putBeeper();
+//			turnAround();
+//			move();
+//			turnAround();
+//			while(beepersPresent()){
+//				pickBeeper();
+//				turnAround();
+//				move();
+//				putBeeper();
+//				turnAround();
+//				move();
+//				
+//			
+//			}
+//			
+//			
+//			
+//		}		
 //		
 //		
 		
