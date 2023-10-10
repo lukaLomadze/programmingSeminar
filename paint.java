@@ -34,7 +34,7 @@ public class paint extends GraphicsProgram{
 	add(handle,180, 250);	
 		
 	GLine roof = new GLine(100, 50, 100,100);
-
+	add(roof);
 		
 		
 		
