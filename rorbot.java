@@ -18,10 +18,12 @@ public void run(){
 	GRect eye1 = new GRect(40, 40);
 	eye1.setFilled(true);
 	eye1.setColor(Color.black);
-	
-	
 	add(eye1,x+20, y+20 );
 	
+	GRect eye1 = new GRect(40, 40);
+	eye1.setFilled(true);
+	eye1.setColor(Color.black);
+	add(eye1,x+20, y+20 );
 	
 	
 	
