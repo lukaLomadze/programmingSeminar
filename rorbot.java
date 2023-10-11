@@ -1,5 +1,6 @@
 import java.awt.Color;
 
+import acm.graphics.GOval;
 import acm.graphics.GRect;
 import acm.program.GraphicsProgram;
 
@@ -24,6 +25,23 @@ public void run(){
 	eye2.setFilled(true);
 	eye2.setColor(Color.black);
 	add(eye2,x+140, y+40 );
+	
+	GOval mounth = new GOval(100,20)
+	mounth.setFilled(true);
+	mounth.setColor(Color.black);
+	add(mounth, x+50, y+100);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
