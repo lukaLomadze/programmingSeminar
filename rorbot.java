@@ -1,4 +1,27 @@
+import java.awt.Color;
 
-public class rorbot {
+import acm.graphics.GRect;
+import acm.program.GraphicsProgram;
 
+public class rorbot extends GraphicsProgram{
+public void run(){
+	
+	
+	GRect rect = new GRect(200, 200);
+	rect.setFilled(true);
+	rect.setColor(Color.GRAY);
+	add(rect, 100, 100);
+	
+	
+	
+	
+	
+	
+	
+	
+}
+	
+	
+	
+	
 }
