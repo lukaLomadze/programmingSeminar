@@ -10,7 +10,8 @@ public void run(){
 	GRect rect = new GRect(200, 200);
 	rect.setFilled(true);
 	rect.setColor(Color.GRAY);
-	add(rect, 100, 100);
+	
+	add(rect, getWidth()- 100,  getHeight()-100);
 	
 	
 	
