@@ -11,9 +11,11 @@ public void run(){
 	rect.setFilled(true);
 	rect.setColor(Color.GRAY);
 	
+	
+	
 	add(rect, getWidth()/2- 100,  getHeight()/2-100);
 	
-	
+	System.out.print(getWidth()/2- 100,  getHeight()/2-100);
 	
 	
 	
