@@ -39,11 +39,8 @@ public class paint extends GraphicsProgram{
 	GLine roof2 = new GLine(200, 50, 300,100);
 	add(roof2);
 		
-	System.out.print(getHeight());
 	
 	
-	GLine lin = new GLine(0, getHeight()/2, getWidth(),  getHeight()/2);
-	add(lin);
-		
+	
 	}
 }
