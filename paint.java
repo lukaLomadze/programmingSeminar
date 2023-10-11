@@ -40,8 +40,9 @@ public class paint extends GraphicsProgram{
 	add(roof2);
 		
 	
-	//GPolygon g = new GPolygon()
-		
+	
+	
+
 		
 	}
 }
