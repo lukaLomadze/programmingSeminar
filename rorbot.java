@@ -17,7 +17,7 @@ public void run(){
 	
 	GRect eye1 = new GRect(40, 40);
 	eye1.setFilled(true);
-	eye1.setColor(Color.gray);
+	eye1.setColor(Color.black);
 	
 	
 	add(eye1,x+40, y+40 );
