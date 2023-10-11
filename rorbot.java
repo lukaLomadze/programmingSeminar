@@ -13,7 +13,7 @@ public void run(){
 	int x = getWidth()/2- 100;
 	int y =getHeight()/2-100;
 	
-	add(rect,x, y   );
+	add(rect,x, y );
 	
 	
 	
