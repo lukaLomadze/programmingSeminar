@@ -11,7 +11,7 @@ public void run(){
 	rect.setFilled(true);
 	rect.setColor(Color.GRAY);
 	
-	add(rect, getWidth()- 100,  getHeight()-100);
+	add(rect, getWidth()/2- 100,  getHeight()/2-100);
 	
 	
 	
