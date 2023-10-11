@@ -10,12 +10,11 @@ public void run(){
 	GRect rect = new GRect(200, 200);
 	rect.setFilled(true);
 	rect.setColor(Color.GRAY);
+	int x = getWidth()/2- 100;
+	int y =getHeight()/2-100;
 	
+	add(rect,x, y   );
 	
-	
-	add(rect, getWidth()/2- 100,  getHeight()/2-100);
-	
-	System.out.print(  getHeight()/2-100);
 	
 	
 	
