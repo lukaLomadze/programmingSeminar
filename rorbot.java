@@ -29,7 +29,7 @@ public void run(){
 	GOval mounth = new GOval(100,20);
 	mounth.setFilled(true);
 	mounth.setColor(Color.black);
-	add(mounth, x+50, y+100);
+	add(mounth, x+50, y+150);
 	
 	
 	
