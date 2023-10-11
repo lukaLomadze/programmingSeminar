@@ -42,7 +42,7 @@ public class paint extends GraphicsProgram{
 	System.out.print(getHeight());
 	
 	
-	lin = new GLine(0, getHeight()/2, getWidth(),  getHeight()/2);
+	GLine lin = new GLine(0, getHeight()/2, getWidth(),  getHeight()/2);
 	add(lin);
 		
 	}
