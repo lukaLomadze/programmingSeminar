@@ -1,11 +1,11 @@
-/**
- * 
- */
+import acm.program.ConsoleProgram;
 
-/**
- * @author lukaloma
- *
- */
-public class cons {
-
+public class cons extends ConsoleProgram {
+public void run(){
+	print("jnk");
+	
+	
+	
+	
+}
 }
