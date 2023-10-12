@@ -11,8 +11,8 @@ public class rorbot extends GraphicsProgram{
 		GRect face = new GRect(200, 200);
 		face.setFilled(true);
 		face.setColor(Color.GRAY);
-		int x = getWidth()/2- 100;
-		int y =getHeight()/2-100;
+		double x = getWidth()/2- 100;
+		double y =getHeight()/2-100;
 		
 		add(face,x, y );
 		
