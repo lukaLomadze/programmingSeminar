@@ -39,10 +39,10 @@ public class rorbot extends GraphicsProgram{
 		
 		
 		
-		for(int i = 0; i<4; ++i){
-		System.out.print(i);	
-			
-		}
+//		for(int i = 0; i<4; i++){
+//		System.out.print(i);	
+//			
+//		}
 		
 		
 		
