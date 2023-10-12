@@ -8,8 +8,8 @@ public void run(){
 	int c = readInt("enter third number : ");
 	println((a + b + c)/3);
 	
-	double d = (1/a) + (1/b) + (1/c) ;
+	double d = (1 / a) + (1 / b) + (1 / c) ;
 	
-	print(1/d);
+	println( 1 / d );
 }
 }
