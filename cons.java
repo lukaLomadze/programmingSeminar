@@ -9,7 +9,7 @@ public void run(){
 	println((a + b + c)/3);
 	
 	double d = (1 / a) + (1 / b) + (1 / c) ;
-	System.out.print(1 / d);
+	System.out.print(d);
 	//println( 1 / d );
 }
 }
