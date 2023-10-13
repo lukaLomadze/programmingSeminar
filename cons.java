@@ -8,7 +8,7 @@ public class cons extends ConsoleProgram {
 		int c = readInt("enter third number : ");
 		println((a + b + c)/3);
 		
-		double d = (int)(1 / a) + (1 / b) + (1 / c) ;
+		double d = (int)((1 / a) + (1 / b) + (1 / c)) ;
 		//System.out.print(1/a);
 		println( 1 / d );
 		
