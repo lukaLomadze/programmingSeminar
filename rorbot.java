@@ -31,7 +31,7 @@ public class rorbot extends GraphicsProgram{
 		mounth.setColor(Color.black);
 		add(mounth, x+50, y+140);
 		
-		GRect nose = new GRect(10, 75);
+		GRect nose = new GRect(10, 50);
 		nose.setFilled(true);
 		nose.setColor(Color.black);
 		add(nose,x+95, y+45 );
