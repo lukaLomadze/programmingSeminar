@@ -34,7 +34,7 @@ public class rorbot extends GraphicsProgram{
 		GRect nose = new GRect(10, 50);
 		nose.setFilled(true);
 		nose.setColor(Color.black);
-		add(nose,x+95, y+45 );
+		add(nose,x+95, y+80 );
 		
 		
 		
