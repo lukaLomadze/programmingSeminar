@@ -16,7 +16,7 @@ public void run(){
 		
 		add(lin);
 		System.out.print(getWidth()/20);
-		
+		System.out.print(getWidth());
 	}
 }
 }
