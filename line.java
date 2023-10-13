@@ -12,11 +12,10 @@ public void run(){
 	
 	for(int i = 1; i < 20; i++){
 		
-		GLine lin = new GLine( i* getWidth()/20 , 0, i* getWidth()/20,  getHeight());	
+		GLine lin = new GLine( i* getWidth()/(double) 20 , 0, i* getWidth()/(double)20,  getHeight());	
 		
 		add(lin);
-		System.out.print(getWidth()/20);
-		System.out.print(getWidth());
+		
 	}
 }
 }
