@@ -16,12 +16,12 @@ public class rorbot extends GraphicsProgram{
 		
 		add(face,x, y );
 		
-		GRect eye1 = new GRect(40, 40);
+		GOval eye1 = new GOval(40, 40);
 		eye1.setFilled(true);
 		eye1.setColor(Color.black);
 		add(eye1,x+20, y+40 );
 		
-		GRect eye2 = new GRect(40, 40);
+		GOval eye2 = new GOval(40, 40);
 		eye2.setFilled(true);
 		eye2.setColor(Color.black);
 		add(eye2,x+140, y+40 );
