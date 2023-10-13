@@ -15,6 +15,7 @@ public void run(){
 		GLine lin = new GLine( i* getWidth()/20 , 0, i* getWidth()/20,  getHeight());	
 		
 		add(lin);
+		System.out.print(getWidth()/20);
 		
 	}
 }
