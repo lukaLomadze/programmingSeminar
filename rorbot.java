@@ -59,6 +59,7 @@ public class rorbot extends GraphicsProgram{
 		face.setFilled(true);
 		face.setColor(Color.GRAY);
 		
+		
 		add(face,x, y );
 	}
 		
