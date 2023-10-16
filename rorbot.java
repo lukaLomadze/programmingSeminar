@@ -5,11 +5,9 @@ import acm.graphics.GRect;
 import acm.program.GraphicsProgram;
 
 public class rorbot extends GraphicsProgram{
-	private static final double x = getWidth()/2- 100;
-	private static final double y = getHeight()/2-100;
-	
 	public void run(){
-		
+		double x = getWidth()/2- 100;
+		double y =getHeight()/2-100;
 		drawFace();
 		drawNose();
 		drawMounth();
