@@ -3,7 +3,7 @@ import stanford.karel.SuperKarel;
 public class problem01 extends SuperKarel {
 	 public void run(){
 		while(leftIsClear()){
-			moveOnHorizon();
+			moveOnRow();
 		  if(facingEast()){
 			  turnLeft();
 			  move();
@@ -18,7 +18,7 @@ public class problem01 extends SuperKarel {
 		  }
 		}
 		
-		moveOnHorizon();
+		moveOnRow();
 
 		 
 		 
@@ -36,7 +36,7 @@ public class problem01 extends SuperKarel {
 	 }
 	 
 	 	 
-	private void moveOnHorizon(){	
+	private void moveOnRow(){	
 		while (frontIsClear() ){
 			if(noBeepersPresent()){
 			putBeeper();
@@ -49,21 +49,6 @@ public class problem01 extends SuperKarel {
 	}
 }
 	
-		
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 	//N2	 
 //	for (int i = 0; i < 4; i++) {
@@ -77,6 +62,11 @@ public class problem01 extends SuperKarel {
 //	for (int i = 0; i < 10; i++) {
 //		putBeeper(); 
 //		}
+
+
+
+
+
 	
 //3-4-5
 //while (frontIsClear() ){
@@ -89,6 +79,8 @@ public class problem01 extends SuperKarel {
 //if(noBeepersPresent()){
 //	putBeeper();
 //	}
+
+
 
 
 //N6
