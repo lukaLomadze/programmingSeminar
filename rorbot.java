@@ -16,6 +16,8 @@ public class rorbot extends GraphicsProgram{
 		}
 
 	private void drawRightEye() {
+		double x = getWidth()/2- 100;
+		double y =getHeight()/2-100;
 		GOval eye2 = new GOval(40, 40);
 		eye2.setFilled(true);
 		eye2.setColor(Color.black);
@@ -23,6 +25,8 @@ public class rorbot extends GraphicsProgram{
 	}
 
 	private void drawLeftEyE() {
+		double x = getWidth()/2- 100;
+		double y =getHeight()/2-100;
 		GOval eye1 = new GOval(40, 40);
 		eye1.setFilled(true);
 		eye1.setColor(Color.black);
@@ -30,6 +34,8 @@ public class rorbot extends GraphicsProgram{
 	}
 
 	private void drawMounth() {
+		double x = getWidth()/2- 100;
+		double y =getHeight()/2-100;
 		GOval mounth = new GOval(100,25);
 		mounth.setFilled(true);
 		mounth.setColor(Color.black);
@@ -37,6 +43,8 @@ public class rorbot extends GraphicsProgram{
 	}
 
 	private void drawNose() {
+		double x = getWidth()/2- 100;
+		double y =getHeight()/2-100;
 		GRect nose = new GRect(10, 50);
 		nose.setFilled(true);
 		nose.setColor(Color.black);
@@ -45,6 +53,8 @@ public class rorbot extends GraphicsProgram{
 	}
 
 	private void drawFace() {
+		double x = getWidth()/2- 100;
+		double y =getHeight()/2-100;
 		GRect face = new GRect(200, 200);
 		face.setFilled(true);
 		face.setColor(Color.GRAY);
