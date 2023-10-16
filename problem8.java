@@ -45,31 +45,6 @@ public class problem8 extends SuperKarel{
 		
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 
 }
