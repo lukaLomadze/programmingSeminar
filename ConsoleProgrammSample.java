@@ -10,23 +10,26 @@ import acm.program.*;
 public class ConsoleProgrammSample extends ConsoleProgram {
 	private static final int SENTINEL = 0; 
 	public void run() {
-		int b ;
-		
+		int b =0 ;
+		int c =0 ;
+		int d =0 ;
 		while(true){
 			int a = readInt("enter number : ");
-			
+			d++;
 			if(a == SENTINEL) {
 				break ;
 			}
-			b=a;
-			
-			
+			 if(a > b){
+				 b = a;
+			 }
 			
 			
 			
 			
 		}
-		
+		println(d);
+			println(b);
+			
 		
 		
 		
