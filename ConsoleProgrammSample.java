@@ -27,8 +27,11 @@ public class ConsoleProgrammSample extends ConsoleProgram {
 			while(true){
 				int b = readInt("enter number : ");
 				
-				if(a == SENTINEL) break ;
-				if (a > k){
+				if(b == SENTINEL) {
+					break ;
+				}
+				
+				if (b > k){
 					k = a;
 					
 				}
