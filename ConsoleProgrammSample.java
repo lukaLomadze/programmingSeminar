@@ -15,14 +15,14 @@ public class ConsoleProgrammSample extends ConsoleProgram {
 		int d =0 ;
 		while(true){
 			int a = readInt("enter number : ");
-			d++;
+			
 			if(a == SENTINEL) {
 				break ;
 			}
 			 if(a > b){
 				 b = a;
 			 }
-			
+			d++;
 			
 			
 			
