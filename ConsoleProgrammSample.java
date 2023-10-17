@@ -10,8 +10,13 @@ import acm.program.*;
 public class ConsoleProgrammSample extends ConsoleProgram {
 
 	public void run() {
-		// You fill this in
 		
+		int n = readInt("enter number : ");
+		for(int i =0; i<n; i++){
+			prtintln("hello" + i);
+			
+			
+		}
 		
 		
 		
