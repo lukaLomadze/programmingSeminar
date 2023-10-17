@@ -7,9 +7,6 @@ public class problem17 extends ConsoleProgram {
 		
 		println(x- (int)x);
 		
-		
-		
-		
-		
+	
 	}
 }
