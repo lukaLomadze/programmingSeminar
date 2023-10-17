@@ -32,7 +32,7 @@ public class ConsoleProgrammSample extends ConsoleProgram {
 				}
 				
 				if (b > k){
-					k = a;
+					k = b;
 					
 				}
 			}
