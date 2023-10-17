@@ -13,7 +13,7 @@ public class ConsoleProgrammSample extends ConsoleProgram {
 		
 		int n = readInt("enter number : ");
 		for(int i =0; i<n; i++){
-			prtintln("hello" + i);
+			println("hello" + i);
 			
 			
 		}
