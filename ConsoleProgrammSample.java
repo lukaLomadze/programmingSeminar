@@ -8,6 +8,10 @@
 import acm.program.*;
 
 public class ConsoleProgrammSample extends ConsoleProgram {
+	
+	
+	
+	
 	private static final int SENTINEL = 0; 
 	public void run() {
 		int b =0 ;
