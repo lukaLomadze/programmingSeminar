@@ -1,6 +1,7 @@
 import acm.program.ConsoleProgram;
 
 public class cons extends ConsoleProgram {
+	private static final int SENTINEL = 1; 
 	public void run(){
 		
 		int a = readInt("enter first number : ");
@@ -13,7 +14,7 @@ public class cons extends ConsoleProgram {
 		println( 1 / d );
 		println((a + b + c)/3.0);
 		
-		
+		println( SENTINEL);
 		
 		
 		
