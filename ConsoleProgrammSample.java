@@ -17,7 +17,7 @@ public class ConsoleProgrammSample extends ConsoleProgram {
 			int k =0;
 			
 			
-			int a = readInt("enter number : ")
+			int a = readInt("enter number : ");
 			if(a != SENTINEL){
 				k = a;
 			}
@@ -25,7 +25,7 @@ public class ConsoleProgrammSample extends ConsoleProgram {
 				
 				
 			while(true){
-				int b = readInt("enter number : ")
+				int b = readInt("enter number : ");
 				
 				if(a == SENTINEL) break ;
 				if (a > k){
@@ -41,4 +41,4 @@ public class ConsoleProgrammSample extends ConsoleProgram {
 		
 	}
 
-}
+
