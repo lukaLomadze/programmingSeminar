@@ -6,7 +6,7 @@ public class problem20  extends ConsoleProgram{
 		int a = readInt("enter number : ");
 		int c = 0;
 		
-		for(int i= 0 ; i < a; i++){
+		for(int i= 1 ; i <= a; i++){
 			
 			int b = readInt(i +") enter number : ");
 			c += b;
