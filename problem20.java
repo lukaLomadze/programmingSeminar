@@ -8,24 +8,12 @@ public class problem20  extends ConsoleProgram{
 		
 		for(int i= 0 ; i < a; i++){
 			
-			int b = readInt("enter number : ");
+			int b = readInt(i +") enter number : ");
 			c += b;
 			
 		}
 		
 		println("sum is " + c);
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		
 		
 		
