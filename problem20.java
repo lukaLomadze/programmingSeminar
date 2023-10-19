@@ -13,7 +13,7 @@ public class problem20  extends ConsoleProgram{
 			
 		}
 		
-		println("sum is " + a)
+		println("sum is " + a);
 		
 		
 		
