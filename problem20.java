@@ -4,16 +4,16 @@ public class problem20  extends ConsoleProgram{
 	public void run(){
 
 		int a = readInt("enter number : ");
-		int a = 0;
+		int c = 0;
 		
 		for(int i= 0 ; i < a; i++){
 			
 			int b = readInt("enter number : ");
-			a += b;
+			c += b;
 			
 		}
 		
-		println("sum is " + a);
+		println("sum is " + c);
 		
 		
 		
