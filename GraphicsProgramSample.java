@@ -16,7 +16,7 @@ public class GraphicsProgramSample extends GraphicsProgram {
 		
 		for(int i = 1; i<=5;i++){
 			
-			add(squ, i* 80,i*80);
+			add(sqr(80), i* 80,i*80);
 			
 		}
 		
