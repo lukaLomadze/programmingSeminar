@@ -12,7 +12,7 @@ public class GraphicsProgramSample extends GraphicsProgram {
 	
 	public void run() {
 	
-		add(sqr(80), 80,80);
+	
 		
 		for(int i = 1; i<=5;i++){
 			
