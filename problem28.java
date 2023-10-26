@@ -8,10 +8,11 @@ public class problem28 extends ConsoleProgram{
 	while(true){
 		
 		int odd = readInt("enter number :");
+		
 		if(odd == SENTINEL){
 			break;
 		}
-		if(odd % 2 == 0){
+		if(odd % 2 == 0 && odd >= 0){
 			numberOfOdds++;
 		}
 		
