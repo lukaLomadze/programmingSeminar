@@ -17,7 +17,7 @@ public class problem29 extends ConsoleProgram{
  private int sum (int f){
  int sum = 0;
  
- while(f>=0){
+ while(f>0){
 	 int na = f %10;
 	 f /= 10;
 	 sum += na;
