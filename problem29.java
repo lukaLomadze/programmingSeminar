@@ -19,7 +19,7 @@ public class problem29 extends ConsoleProgram{
  
  while(f>=0){
 	 int na = f %10;
-	 f %= 10;
+	 f /= 10;
 	 sum += na;
 	 
 	 
