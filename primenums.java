@@ -19,15 +19,17 @@ public class primenums extends ConsoleProgram{
 		
 		
 	}
-	private boolean isprime(int n){
-for(int i = 1; i*i  < n; i++){
-		if(n%i==0){
-				return false;
+	private boolean isprime (int n){
+		for(int i = 1; i*i  < n; i++){
+	
+			return  n % i != 0;
+			//if(n%i==0){
+//				return false;
+//		}
+//			
+//		
 		}
-			
-		return true ;	
-		}
-
+return true ;	
 		
 		
 	}
