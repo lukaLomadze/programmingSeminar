@@ -25,9 +25,9 @@ for(int i = 1; i*i  < n; i++){
 				return false;
 		}
 			
-			
+		return true ;	
 		}
-return true ;
+
 		
 		
 	}
