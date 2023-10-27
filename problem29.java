@@ -4,7 +4,7 @@ public class problem29 extends ConsoleProgram{
 	
 	
  public void run(){
-	 int n = readInt("enter numb ");
+	 //int n = readInt("enter numb ");
 	 int f = 12456;
 	
 	 
