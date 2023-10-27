@@ -3,17 +3,17 @@ import acm.program.ConsoleProgram;
 public class primenums extends ConsoleProgram{
 	public void run(){
 		
-		int c =0;
+		int d = 0;
 		for(int i = 2; i < 1000000; i++){
 			if(isprime(i)){
 				
-				c++;
+				d++;
 			}
 			
 			
 		}
 		
-		println(c);
+		println(d);
 		
 		
 		
