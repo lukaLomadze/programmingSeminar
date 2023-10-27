@@ -15,9 +15,9 @@ public class fibo extends ConsoleProgram{
 		if(n == 1){
 			return a;
 		}
-		for (int i = 3; i<=n; i++){
-			int c = a+ b;
-			a=b;
+		for (int i = 3; i <= n; i++){
+			int c = a + b;
+			a = b;
 			b = c;
 			
 			
