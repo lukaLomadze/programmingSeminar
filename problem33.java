@@ -8,14 +8,11 @@ public class problem33 extends GraphicsProgram {
 	private RandomGenerator tr = RandomGenerator.getInstance();
 	public void run(){
 		
-		GRect rect = new GRect(tr.nextInt(100), tr.nextInt(100));
-		rect.setFilled(tr.nextBoolean());
-		rect.setColor(tr.nextColor());
-		add(rect, tr.nextInt(100), tr.nextInt(100));
+		for(int i = 0; i< 1000; i++){
 		
+		drawRect();
+		}
 		
-		
-		System.out.print(tr.nextBoolean());
 		
 		
 		
@@ -25,6 +22,18 @@ public class problem33 extends GraphicsProgram {
 		
 		
 	}
+	private void drawRect() {
+		GRect rect = new GRect(tr.nextInt(100), tr.nextInt(100));
+		rect.setFilled(tr.nextBoolean());
+		rect.setColor(tr.nextColor());
+		add(rect, tr.nextInt(100), tr.nextInt(100));
+		
+		
+		
+		
+	}
+	
+	
 	
 	
 }
