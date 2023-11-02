@@ -10,8 +10,8 @@ public class problem33 extends GraphicsProgram {
 		
 		GRect rect = new GRect(tr.nextInt(100), tr.nextInt(100));
 		rect.setFilled(tr.nextBoolean());
-		rect.setColor(Color.tr.nextColor());
-		
+		rect.setColor(tr.nextColor());
+		add(rect, tr.nextInt(100), tr.nextInt(100));
 		
 		
 		
