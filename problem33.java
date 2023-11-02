@@ -7,7 +7,7 @@ public class problem33 extends GraphicsProgram {
 		
 		
 		
-		System.out.print(tr.nextboole());
+		System.out.print(tr.nextBoolean());
 		
 		
 		
