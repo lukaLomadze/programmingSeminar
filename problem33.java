@@ -5,7 +5,7 @@ public class problem33 extends GraphicsProgram {
 	public void run(){
 		private RandomGenerator tr = RandomGenerator.getInstance();
 		
-		println(tr(5));
+		println(tr.nextInt(5));
 		
 		
 		
