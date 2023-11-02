@@ -13,20 +13,44 @@ public class problem35 extends ConsoleProgram {
 		int f =0;
 		
 		for(int i = 0; i< 1000000; i++){
-		if(rgen.nextBoolean()){
-			t++;
-		}else{
-			f++;
-		}
-		
+		 tr();
+			
+			
+	
 		
 		
 		
 	}	
-		
-	println(t/ (double)(t+f));
-		
+	
 		
 		
+	}
+
+
+	private void tr() {
+	
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
 }
-}
+		
+//		if(rgen.nextBoolean()){
+//			t++;
+//		}else{
+//			f++;
+//		}
+//		
+
+
+	
+	//println(t/ (double)(t+f));
+		
+
+
