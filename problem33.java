@@ -8,7 +8,7 @@ public class problem33 extends GraphicsProgram {
 	private RandomGenerator tr = RandomGenerator.getInstance();
 	public void run(){
 		
-		for(int i = 0; i< 1000; i++){
+		for(int i = 0; i< 10000000; i++){
 		
 		drawRect();
 		}
