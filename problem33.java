@@ -23,10 +23,10 @@ public class problem33 extends GraphicsProgram {
 		
 	}
 	private void drawRect() {
-		GRect rect = new GRect(tr.nextInt(100), tr.nextInt(100));
+		GRect rect = new GRect(tr.nextInt(200), tr.nextInt(200));
 		rect.setFilled(tr.nextBoolean());
 		rect.setColor(tr.nextColor());
-		add(rect, tr.nextInt(100), tr.nextInt(100));
+		add(rect, tr.nextInt(200), tr.nextInt(200));
 		
 		
 		
