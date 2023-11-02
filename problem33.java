@@ -7,7 +7,7 @@ public class problem33 extends GraphicsProgram {
 		
 		
 		
-		println(tr.nextInt(5));
+		System.out.print(tr.nextInt(5));
 		
 		
 		
