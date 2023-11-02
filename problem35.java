@@ -15,13 +15,13 @@ public class problem35 extends ConsoleProgram {
 		}else{
 			f++;
 		}
-		println(t/ (double)(t+f));
+		
 		
 		
 		
 	}	
 		
-	
+	println(t/ (double)(t+f));
 		
 		
 		
