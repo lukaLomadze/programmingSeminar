@@ -9,7 +9,7 @@ public class animation extends GraphicsProgram {
 		add(oval, 0 , getHeight()/2 - 25);
 		
 		while(oval.getX()+2 <= getWidth() ){
-			pause(40);
+			pause(20);
 			oval.move(2, 0);
 		}
 		
