@@ -8,7 +8,7 @@ public class animation extends GraphicsProgram {
 		GOval oval = new GOval(50 , 50);
 		add(oval, 0 , getHeight()/2 - 25);
 		
-		while(oval.getX()+50 <= getWidth() ){
+		while(oval.getX()+2 <= getWidth() ){
 			pause(40);
 			oval.move(2, 0);
 		}
