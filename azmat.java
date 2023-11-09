@@ -9,11 +9,11 @@ public class azmat extends ConsoleProgram{
 	 
 	 int e = 3;
 	 
-	 int d = 16 ;
+	 int d = 0 ;
 	 
 	 for(int i = 0; i< k; i++){
 		 
-		 if((i * e) % k == 1 ){
+		 if((i * e) % ((n-1)*(m-1)) == 1 ){
 			 d = i;
 		 }
 		 
