@@ -11,7 +11,7 @@ public class azmat extends ConsoleProgram{
 	 
 	 int d = 0 ;
 	 
-	 for(int i = 0; i< k; i++){
+	 for(int i = 0; i< ((n-1)*(m-1)); i++){
 		 
 		 if((i * e) % ((n-1)*(m-1)) == 1 ){
 			 d = i;
