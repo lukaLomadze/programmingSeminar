@@ -18,7 +18,7 @@ public class events extends GraphicsProgram {
 	}
 	
 	public void mouseClicked(MouseEvent e){
-		rect.setLocation(e.getX(), e.getY());
+		rect.setLocation(e.getX() - 25, e.getY() - 25);
 		
 	}
 }
