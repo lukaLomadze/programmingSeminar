@@ -10,7 +10,7 @@ public class azmat extends ConsoleProgram {
 		int e = 3;
 		
 		//while()
-		int e = 3;
+		int p = 3;
 
 		int d = 0;
 
