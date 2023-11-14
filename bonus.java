@@ -27,7 +27,7 @@ public class bonus extends ConsoleProgram{
 		}
 		
 		println((c * 2 / 3 )/1000000);
-		println(x);
+		//println(x);
 		
 		
 	}
