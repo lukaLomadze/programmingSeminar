@@ -16,22 +16,22 @@ public class problem41 extends GraphicsProgram {
 	}
 	
 	public void mouseDragged(MouseEvent e ){
-		paint(e);
+		paint(e.getX(), e.getY());
 		
 		
 	}
 	
 	public void mouseClicked(MouseEvent e ){
 		
-		paint(e);
+		paint(e.getX(), e.getY());
 		
 	}
 
-	private void paint(MouseEvent e) {
+	private void paint(double x , double y) {
 		GOval ball = new GOval (20,20);
 		ball.setFilled(true);
 		
-		add(ball, e.getX() - 10 , e.getY()- 10);
+		add(ball,x - 10 , y- 10);
 		
 	}
 	
