@@ -31,7 +31,7 @@ public class problem41 extends GraphicsProgram {
 		GOval ball = new GOval (20,20);
 		ball.setFilled(true);
 		
-		add(ball, e.getX() , e.getY());
+		add(ball, e.getX() - 10 , e.getY()- 10);
 		
 	}
 	
