@@ -28,7 +28,7 @@ public class problem41 extends GraphicsProgram {
 	}
 
 	private void paint(double x , double y) {
-		GOval ball = new GOval (20,20);
+		GOval ball = new GOval (50,50);
 		ball.setFilled(true);
 		
 		add(ball,x - 10 , y- 10);
