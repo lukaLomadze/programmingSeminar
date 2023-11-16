@@ -6,14 +6,15 @@ public void run(){
 	int n = 2;
 	int m = 8;
 	int log =0;
-	while(n<=m){
+	int k = 1;
+	while(k<=m){
 		log++;
-		n *=n;
+		k *=n;
 		
 		
 	}
 	
-	println(log++);
+	println(log);
 	
 }
 }
