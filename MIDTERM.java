@@ -11,7 +11,6 @@ public void run(){
 		log++;
 		k *=n;
 		
-		
 	}
 	
 	println(--log);
