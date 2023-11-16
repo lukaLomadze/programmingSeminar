@@ -14,7 +14,7 @@ public void run(){
 		
 	}
 	
-	println(log--);
+	println(--log);
 	
 }
 }
