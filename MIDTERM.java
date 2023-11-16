@@ -7,7 +7,7 @@ public void run(){
 	int m = 8;
 	int log =0;
 	int k = 1;
-	while(k<=m){
+	while(k<m){
 		log++;
 		k *=n;
 		
