@@ -8,12 +8,12 @@ public class strings extends ConsoleProgram {
 		//String d = readLine("enter str4");
 		
 		String  e = readLine("write") ;
-		char  f = readLine("write char");
+		String  f = readLine("write char");
 		
 		int n = 0;
 		
 		for(int i = 0; i < e.length(); i++){
-			if(f == e.charAt(i)){
+			if(f.charAt(0) == e.charAt(i)){
 				n++;
 			}
 		}
