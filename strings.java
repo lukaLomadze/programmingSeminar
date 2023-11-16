@@ -10,14 +10,18 @@ public class strings extends ConsoleProgram {
 		
 		String  e = readLine("write text : ") ;
 		String  f = readLine("write char : ");
+		char fChar= f.charAt(0);
 		
-		
+		int count = 0;
 		for(int i = 0; i < e.length(); i++){
 			
-			
+			if(count < countChars(fChar , e)){
+				count = countChars(fChar , e);
+			}
 			
 			
 		}
+		println(count);
 		
 		
 		
@@ -25,17 +29,7 @@ public class strings extends ConsoleProgram {
 		
 		
 		
-		
-//		int n = 0;
-//		
-//		for(int i = 0; i < e.length(); i++){
-//			if(f.charAt(0) == e.charAt(i)){
-//				n++;
-//			}
-//		}
-//		
-//		
-//		println("There are " + n + " " +f + " in " + e);
+//	
 //		
 		
 		
@@ -44,6 +38,18 @@ public class strings extends ConsoleProgram {
 		
 		
 		
+		
+	}
+
+	private int countChars(char fChar , String e) {
+			int n = 0;
+		
+		for(int i = 0; i < e.length(); i++){
+			if(fChar == e.charAt(i)){
+				n++;
+			}
+		}
+		return n;
 		
 	}
 }
