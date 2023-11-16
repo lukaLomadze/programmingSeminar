@@ -9,14 +9,14 @@ public class strings extends ConsoleProgram {
 		
 		
 		String  e = readLine("write text : ") ;
-		String  f = readLine("write char : ");
-		char fChar= f.charAt(0);
+		//String  f = readLine("write char : ");
+		//char fChar= f.charAt(0);
 		
 		int count = 0;
 		for(int i = 0; i < e.length(); i++){
 			
-			if(count < countChars(fChar , e)){
-				count = countChars(fChar , e);
+			if(count < countChars(e.charAt(i) , e)){
+				count = countChars(e.charAt(i) , e);
 			}
 			
 			
