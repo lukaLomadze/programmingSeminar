@@ -5,7 +5,7 @@ public class strings extends ConsoleProgram {
 		String a = "mari";
 		String b = "mari";
 		String c = new String("mari");
-		String d = readLine("enter str4");
+		//String d = readLine("enter str4");
 		
 		String  e = readLine("write") ;
 		String  f = readLine("write char");
