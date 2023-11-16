@@ -7,8 +7,8 @@ public class strings extends ConsoleProgram {
 		String c = new String("mari");
 		//String d = readLine("enter str4");
 		
-		String  e = readLine("write") ;
-		String  f = readLine("write char");
+		String  e = readLine("write text : ") ;
+		String  f = readLine("write char : ");
 		
 		int n = 0;
 		
@@ -19,7 +19,7 @@ public class strings extends ConsoleProgram {
 		}
 		
 		
-		println("there are " + n + " " +f + " in " + e);
+		println("There are " + n + " " +f + " in " + e);
 		
 		
 		
