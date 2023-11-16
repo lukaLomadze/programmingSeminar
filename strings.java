@@ -12,7 +12,7 @@ public class strings extends ConsoleProgram {
 		
 		int n = 0;
 		
-		for(int i = 0; i < e.length(); i++){
+		for(int i = 0; i <= e.length(); i++){
 			if(f.equals(e.charAt(i))){
 				n++;
 			}
