@@ -13,7 +13,7 @@ public class strings extends ConsoleProgram {
 		//char fChar= f.charAt(0);
 		
 		int count = 0;
-		char ans ;
+		char ans = 's';
 		for(int i = 0; i < e.length(); i++){
 			
 			if(count < countChars(e.charAt(i) , e)){
