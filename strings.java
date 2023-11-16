@@ -23,8 +23,8 @@ public class strings extends ConsoleProgram {
 			
 			
 		}
-		println(count);
-		
+		println(count );
+		println(ans );
 		
 		
 		
