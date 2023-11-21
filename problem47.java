@@ -3,14 +3,18 @@ import java.awt.event.MouseEvent;
 import acm.graphics.GRect;
 import acm.program.ConsoleProgram;
 import acm.program.GraphicsProgram;
+import acm.util.RandomGenerator;
 
 public class problem47 extends GraphicsProgram {
 
-	private GRect rect = new GRect(100, 100, 100, 100);
+	private int A = 100;
+	private GRect rect = new GRect(A, A, 100, 100);
+	private RandomGenerator rgen = RandomGenerator.getInstance();
 
+	
 	public void run() {
-
-		add(rect, 10, 10);
+		
+		add(rect,rgen.nextInt(100), 10);
 		addMouseListeners();
 	}
 	
