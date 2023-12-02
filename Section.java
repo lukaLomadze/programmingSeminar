@@ -16,8 +16,8 @@ public class Section extends ConsoleProgram {
 		for (int i = 1 ; i < t.length(); i++){
 			String a = t.substring(0, i);
 			String b = t.substring(i);	
-			println(a);
-			println(b);
+//			println(a);
+//			println(b);
 			for (int k = 1 ; k < a.length(); k++){
 			
 			
