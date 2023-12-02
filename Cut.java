@@ -6,7 +6,7 @@ public class Cut extends ConsoleProgram {
 		String n = "luka lomadze0";
 		
 		
-		String a = n.substring(0,5);
+		String a = n.substring(0,6);
 		println(a);
 		
 		
