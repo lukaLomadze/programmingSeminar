@@ -8,7 +8,7 @@ public class Cut extends ConsoleProgram {
 		String n = "lukalomadze0";
 		
 		char l = 'A';
-		String a = n.substring(0,5);
+		String a = n.substring(0,4);
 		//println(gen.nextInt(1,2));
 		//println(Character.toUpperCase(l));
 		println(a);
