@@ -8,9 +8,10 @@ public class Cut extends ConsoleProgram {
 		String n = "luka lomadze0";
 		
 		char l = 'A';
-		String a = n.substring(1,6);
+		String a = n.substring(0,5);
 		//println(gen.nextInt(1,2));
 		//println(Character.toUpperCase(l));
+		println(a);
 		println(n.compareTo(a));
 		
 		
