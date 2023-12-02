@@ -4,16 +4,16 @@ public class Cut extends ConsoleProgram {
 	public void run() {
 
 		String n = "luka lomadze0";
-		println('d'+1-'a'+"e"+3 + 2 +'b');
+		
+		
+		String a = n.substring(0,5);
+		println(a);
 		
 		
 		
 		
 		
-		
-		
-		
-		
+		//println('d'+1-'a'+"e"+3 + 2 +'b');
 		
 	}
 
