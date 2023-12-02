@@ -11,6 +11,7 @@ public class Cut extends ConsoleProgram {
 		String a = n.substring(0,4);
 		//println(gen.nextInt(1,2));
 		//println(Character.toUpperCase(l));
+		println(n);
 		println(a);
 		println(n.compareTo(a));
 		
