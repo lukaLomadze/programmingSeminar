@@ -19,15 +19,17 @@ public class Section extends ConsoleProgram {
 			println(a);
 			println(b);
 			for (int k = 0 ; k < a.length(); k++){
-			String repa = "" + a.charAt(k);
-					String aa = a.replace(repa, "");
+				
+				
+			char repa = a.charAt(k);
+					String aa = a.replace(repa, ' ');
 			
 				for (int l = 0 ; l < b.length(); l++){
 					
 					
 					
-					String repb = "" + a.charAt(l);
-					String bb = b.replace(repb, "");
+					char repb = a.charAt(l);
+					String bb = b.replace(repb, ' ');
 				
 					String finall = aa + bb; 
 					
