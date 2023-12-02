@@ -17,7 +17,7 @@ public class Cut extends ConsoleProgram {
 		
 		
 		
-		//println('d'+1-'a'+"e"+3 + 2 +'b');
+		println('d'+1-'a'+"e"+3 + 2 +'b');
 		
 	}
 
