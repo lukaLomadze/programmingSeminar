@@ -1,13 +1,15 @@
 import acm.program.ConsoleProgram;
+import acm.util.RandomGenerator;
 
 public class Cut extends ConsoleProgram {
+	private RandomGenerator gen = RandomGenerator.getInstance();
 	public void run() {
 
 		String n = "luka lomadze0";
 		
 		
 		String a = n.substring(1,6);
-		println(a);
+		println(gen.nextInt(1,2));
 		
 		
 		
