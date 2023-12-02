@@ -6,7 +6,7 @@ public class Section extends ConsoleProgram {
 		
 		String t = "iyo arabets rostevan mefe";
 		
-		for (int i = 1 ; i < t.length(); i++){
+		for (int i = 0 ; i < t.length(); i++){
 			String a = t.substring(0, i);
 			String b = t.substring(i+1);	
 			println(a);
