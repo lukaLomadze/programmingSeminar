@@ -5,7 +5,7 @@ public class Cut extends ConsoleProgram {
 	private RandomGenerator gen = RandomGenerator.getInstance();
 	public void run() {
 
-		String n = "lukalomadze0";
+		String n = "lukalomadze";
 		
 		char l = 'A';
 		String a = n.substring(0,4);
