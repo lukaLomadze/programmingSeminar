@@ -19,16 +19,16 @@ public class Section extends ConsoleProgram {
 			println(a);
 			println(b);
 			for (int k = 0 ; k < a.length(); k++){
-			String rep_a = "" + a.charAt(k);
-					String aa = a.replace(rep_a, "");
+			String repa = "" + a.charAt(k);
+					String aa = a.replace(repa, "");
 			
 				for (int l = 0 ; l < b.length(); l++){
 					
 					
 					
-					String rep_b = "" + a.charAt(l);
-					String bb = b.replace(rep_b, "");
-					
+					String repb = "" + a.charAt(l);
+					String bb = b.replace(repb, "");
+				
 					String finall = aa + bb; 
 					
 					if(finall.equals("yo arabts rostvan mf") ){
