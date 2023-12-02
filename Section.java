@@ -28,7 +28,7 @@ public class Section extends ConsoleProgram {
 					
 					
 					
-					String repb = "" + a.charAt(l);
+					String repb = "" + b.charAt(l);
 					String bb = b.replace(repb, "");
 				
 					String finall = aa + bb; 
