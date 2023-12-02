@@ -18,28 +18,28 @@ public class Section extends ConsoleProgram {
 			String b = t.substring(i);	
 			println(a);
 			println(b);
-//			for (int k = 0 ; k < a.length(); k++){
-//			
-//			
-//				for (int l = 0 ; l < b.length(); l++){
-//					
-//					String rep_a = "" + a.charAt(k);
-//					String aa = a.replace(rep_a, "");
-//					
-//					String rep_b = "" + a.charAt(l);
-//					String bb = b.replace(rep_b, "");
-//					
-//					String finall = aa + bb; 
-//					
-//					if(finall.equals("yo arabts rostvan mf") ){
-//						return true;
-//					}
-//				
-//					
-//				}
-//				
-//				
-//			}
+			for (int k = 0 ; k < a.length(); k++){
+			String rep_a = "" + a.charAt(k);
+					String aa = a.replace(rep_a, "");
+			
+				for (int l = 0 ; l < b.length(); l++){
+					
+					
+					
+					String rep_b = "" + a.charAt(l);
+					String bb = b.replace(rep_b, "");
+					
+					String finall = aa + bb; 
+					
+					if(finall.equals("yo arabts rostvan mf") ){
+						return true;
+					}
+				
+					
+				}
+				
+				
+			}
 			
 			
 			
