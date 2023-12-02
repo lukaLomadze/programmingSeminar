@@ -13,7 +13,7 @@ public class Section extends ConsoleProgram {
 			private boolean tr(){
 				String t = "iyo arabets rostevan mefe";
 		
-		for (int i = 1 ; i < t.length(); i++){
+		for (int i = 1 ; i < t.length()-1; i++){
 			String a = t.substring(0, i);
 			String b = t.substring(i);	
 			println(a);
