@@ -17,7 +17,7 @@ public class problem53 extends ConsoleProgram {
 
 		
 		nums.add(2);
-		nums.add(3);
+		nums.add(1);
 		nums.add(3);
 		nums.add(4);
 		nums.add(15);
