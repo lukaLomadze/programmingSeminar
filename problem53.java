@@ -7,7 +7,7 @@ public class problem53 extends ConsoleProgram {
 		ArrayList<Integer> nums = new ArrayList<Integer>();
 		// int n = readInt("enter number :");
 		sortNumbers(nums);
-		for (int i = 0; i < nums.size() ; i++) {
+		for (int i = nums.size(); i > 0  ; i--) {
 			print(nums.get(i) + " ");
 		}
 	}
@@ -34,7 +34,7 @@ public class problem53 extends ConsoleProgram {
 	private int findMin(ArrayList<Integer> nums, int i2) {
 		int min = nums.get(0);
 		for (int i = 1; i < nums.size() - i2; i++) {
-			if (min > nums.get(i)) {
+			if (min < nums.get(i)) {
 				min = nums.get(i);
 			}
 		}
