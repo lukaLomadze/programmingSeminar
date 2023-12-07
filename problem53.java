@@ -8,7 +8,7 @@ public class problem53 extends ConsoleProgram {
 		// int n = readInt("enter number :");
 		sortNumbers(nums);
 		for (int i = 0; i < nums.size() ; i++) {
-			print(nums.get(i));
+			print(nums.get(i) + "");
 		}
 	}
 
