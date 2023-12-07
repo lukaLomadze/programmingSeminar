@@ -4,12 +4,12 @@ import acm.program.ConsoleProgram;
 
 public class problem53 extends ConsoleProgram {
 	public void run() {
-		int n = readInt("enter number :");
-		sortNumbers(n);
+		//int n = readInt("enter number :");
+		sortNumbers();
 
 	}
 
-	private void sortNumbers(int n) {
+	private void sortNumbers() {
 		ArrayList<Integer> nums = new ArrayList<Integer>();
 
 //		for (int i = 0; i < n; i++) {
