@@ -26,7 +26,7 @@ while(true){
 	private void reset(ArrayList<Integer> nums) {
 		for(int i =1; i<= nums.size(); i++){
 			int a = nums.get(nums.size() - i);
-			//nums.remove(nums.indexOf(a));
+			nums.remove(nums.indexOf(a));
 			nums.set(i, a);
 			
 		}
