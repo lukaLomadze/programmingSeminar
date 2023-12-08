@@ -18,13 +18,13 @@ public class Array extends ConsoleProgram {
 
 	}
 
-	private void reset(ArrayList<Integer> nums) {
-		for (int i = 1; i <= nums.size(); i++) {
-			int a = nums.get(nums.size() - i);
-			nums.remove(nums.indexOf(a));
-			// nums.set(i-1, a);
-			nums.add(0, a);
-		}
-
-	}
+//	private void reset(ArrayList<Integer> nums) {
+//		for (int i = 1; i <= nums.size(); i++) {
+//			int a = nums.get(nums.size() - i);
+//			nums.remove(nums.indexOf(a));
+//			// nums.set(i-1, a);
+//			nums.add(0, a);
+//		}
+//
+//	}
 }
