@@ -21,6 +21,7 @@ removeOnes(nums);
 	private void removeOnes(ArrayList<Integer> nums) {
 		while(nums.contains(1)){
 			nums.remove((Integer)1);
+	
 		}
 		
 	}
