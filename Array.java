@@ -10,9 +10,9 @@ while(true){
 	if(n == -1){
 		break;
 	}
-	nums.add(n);
+	nums.add(0,n);
 }
-	reset(nums);	
+	//reset(nums);	
 		
 	for (int i = nums.size(); i > 0  ; i--) {
 		print(nums.get(i - 1)  + " ");
