@@ -14,9 +14,7 @@ while(true){
 }
 	//reset(nums);	
 		
-	for (int i = nums.size(); i > 0  ; i--) {
-		print(nums.get(i - 1)  + " ");
-	}
+println(nums.toString());
 		
 		
 		
