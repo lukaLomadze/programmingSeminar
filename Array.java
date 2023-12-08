@@ -14,7 +14,7 @@ while(true){
 }
 	//reset(nums);	
 		
-println(nums.toString());
+println(nums);
 		
 		
 		
