@@ -7,6 +7,7 @@ public class problem53 extends ConsoleProgram {
 		ArrayList<Integer> nums = new ArrayList<Integer>();
 		// int n = readInt("enter number :");
 		sortNumbers(nums);
+//		println(Array.toString(nums));
 		for (int i = nums.size(); i > 0  ; i--) {
 			print(nums.get(i - 1)  + " ");
 		}
