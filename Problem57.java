@@ -20,7 +20,7 @@ public class Problem57 extends ConsoleProgram {
 	private int[] check(String a) {
 		int[] arr = new int[26];
 		for(int i =0; i<a.length(); i++){
-			arr[i-'a']++;
+			arr[a.charAt(i)-'a']++;
 			
 			
 		}
