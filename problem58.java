@@ -7,7 +7,7 @@ public class problem58 extends ConsoleProgram {
 		int [][] arr = new int [5][5];
 		int a = 1;
 		for(int i = 0; i<arr.length ; i++){
-			for(int k = arr[0].length; k>= 0; k--){
+			for(int k = arr[0].length -1; k>= 0; k--){
 			arr[k][i]= a;
 					a++;
 				}
