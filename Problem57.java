@@ -6,7 +6,7 @@ public class Problem57 extends ConsoleProgram {
 	public void run() {
 
 		String a = "luka";
-		String b = "aulk";
+		String b = "aalk";
 		
 	println(isanagram(a,b));
 	}
