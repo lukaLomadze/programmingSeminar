@@ -13,7 +13,7 @@ public class Array extends ConsoleProgram {
 			nums.add(0, n);
 		}
 		
-removeOnes(nums);
+//removeOnes(nums);
 		println(nums);
 
 	}
