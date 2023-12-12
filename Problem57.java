@@ -8,21 +8,16 @@ public class Problem57 extends ConsoleProgram {
 		String a = "luka";
 		String b = "aulk";
 		
-	println(isanagram(a,b));
+	println(Arrays.equals(check(a), check(b)));
+	
 	}
 
-	private boolean isanagram(String a, String b) {
-		check(a);
-		
-		return Arrays.equals(check(a), check(b));
-	}
+	
 
 	private int[] check(String a) {
 		int[] arr = new int[26];
 		for(int i =0; i<a.length(); i++){
 			arr[a.charAt(i)-'a']++;
-			
-			
 		}
 		return arr;
 		
