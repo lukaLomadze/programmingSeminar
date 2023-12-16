@@ -1,4 +1,11 @@
+import acm.program.ConsoleProgram;
 
-public class Hashmap {
+public class Hashmap extends ConsoleProgram {
+	public void run() {
 
+		
+		
+		
+		
+	}
 }
