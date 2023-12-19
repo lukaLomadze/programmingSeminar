@@ -16,7 +16,7 @@ HashMap<String, Integer> names = new HashMap<String, Integer>();
 				names.put(a, b + 1);
 				
 			}else{
-				names.put(a, 0);	
+				names.put(a, 1);	
 		}
 		}
 		
