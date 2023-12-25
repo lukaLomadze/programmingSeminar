@@ -7,7 +7,7 @@ import acm.program.ConsoleProgram;
 public class Check extends ConsoleProgram{
 
 	public void run(){
-		int[] dices = {4,4,1,1,1};
+		int[] dices = {4,2,1,1,1};
 		
 		
 		HashMap<Integer, Integer> diceValues = new HashMap<Integer, Integer>();
