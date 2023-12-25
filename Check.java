@@ -1,25 +1,71 @@
 import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashMap;
 
 import acm.program.ConsoleProgram;
 
 public class Check extends ConsoleProgram{
 
 	public void run(){
+		int[] dices = {4,4,1,1,1};
 		
-		int[] nums = {1,1,3,3,3};
-		Arrays.sort(nums);
-		int n = 0;
-		for (int i = 1; i < nums.length; i++) {
-			if (nums[i] - nums[i - 1] == 0) {
-				n++;
-			}
+		
+		HashMap<Integer, Integer> diceValues = new HashMap<Integer, Integer>();
+		for (int i = 1; i < dices.length; i++) {
+			diceValues.putIfAbsent(dices[i], 0);
+			int value = diceValues.get(dices[i]);
+			diceValues.put(dices[i], value+1);
 		}
-		
-		println(n);
-		
-		
+		Collection<Integer> values = diceValues.values();
+		System.out.print(values);
 		
 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+//		int[][] grid = new int[7][7];
+//		HashMap<Integer,Integer> is  = new HashMap<Integer,Integer>();
+//		int a = 2;
+//		for (int i = 0; i< grid.length; i++){
+//			for (int j = 0; j< grid.length; j++){
+//				if(grid[i][j] == 1){
+//					int l = grid[i][j];
+//					int u = grid[i][j];		
+//					
+//					
+//					
+//					
+//					
+//				}
+//				
+//				
+//			}
+			
+			
+		//}
 		
 		
 		
