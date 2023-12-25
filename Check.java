@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashMap;
@@ -7,23 +8,27 @@ import acm.program.ConsoleProgram;
 public class Check extends ConsoleProgram{
 
 	public void run(){
-		int[] dices = {4,2,1,1,1};
+//		int[] dices = {4,2,1,1,1};
+//		
+//		
+//		HashMap<Integer, Integer> diceValues = new HashMap<Integer, Integer>();
+//		for (int i = 0; i < dices.length; i++) {
+//			diceValues.putIfAbsent(dices[i], 0);
+//			int value = diceValues.get(dices[i]);
+//			diceValues.put(dices[i], value+1);
+//		}
+//		Collection<Integer> values = diceValues.values();
+//		System.out.print(values);
+//		
+//		
 		
-		
-		HashMap<Integer, Integer> diceValues = new HashMap<Integer, Integer>();
-		for (int i = 0; i < dices.length; i++) {
-			diceValues.putIfAbsent(dices[i], 0);
-			int value = diceValues.get(dices[i]);
-			diceValues.put(dices[i], value+1);
-		}
-		Collection<Integer> values = diceValues.values();
-		System.out.print(values);
-		
-		
-		
-		
-		
-		
+		ArrayList<String> names = new ArrayList<String>();
+		names.add("fvsd");
+		names.add("fvsd");
+		names.add("fvsd");
+		names.add("fvsd");
+		names.add("fvsd");
+		println(names.toString().substring(1, names.toString().length() -1 ));
 		
 		
 		
