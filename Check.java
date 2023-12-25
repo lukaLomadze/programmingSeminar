@@ -11,7 +11,7 @@ public class Check extends ConsoleProgram{
 		
 		
 		HashMap<Integer, Integer> diceValues = new HashMap<Integer, Integer>();
-		for (int i = 1; i < dices.length; i++) {
+		for (int i = 0; i < dices.length; i++) {
 			diceValues.putIfAbsent(dices[i], 0);
 			int value = diceValues.get(dices[i]);
 			diceValues.put(dices[i], value+1);
