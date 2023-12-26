@@ -25,10 +25,10 @@ public class problem68 extends GraphicsProgram {
 	public void actionPerformed(ActionEvent e){
 	
 		System.out.println(txt.getText());
-		txt.setText("");
+		
 		GLabel tt = new GLabel(txt.getText());
 		add(tt);
-		
+		txt.setText("");
 		
 	}
 }
