@@ -3,6 +3,7 @@ import java.awt.event.ActionEvent;
 import javax.swing.JButton;
 import javax.swing.JTextField;
 
+import acm.graphics.GLabel;
 import acm.program.GraphicsProgram;
 
 
@@ -22,10 +23,11 @@ public class problem68 extends GraphicsProgram {
 		
 	}
 	public void actionPerformed(ActionEvent e){
-		
+	
 		System.out.println(txt.getText());
-		//println(e.getActionCommand());
 		txt.setText("");
+		GLabel tt = new GLabel(txt.getText());
+		add(tt);
 		
 		
 	}
