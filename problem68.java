@@ -1,4 +1,5 @@
 import java.awt.event.ActionEvent;
+import java.awt.event.ComponentListener;
 
 import javax.swing.JButton;
 import javax.swing.JTextField;
@@ -8,7 +9,7 @@ import acm.program.GraphicsProgram;
 
 
 
-public class problem68 extends GraphicsProgram {
+public class problem68 extends GraphicsProgram implements ComponentListener{
 	
 	JButton btn = new JButton("enter");
 	JTextField txt = new JTextField(10);
@@ -20,6 +21,7 @@ public class problem68 extends GraphicsProgram {
 		add(btn, SOUTH);
 		
 		txt.addActionListener(this);
+		addComponentListener(this);
 		
 	}
 	public void actionPerformed(ActionEvent e){
