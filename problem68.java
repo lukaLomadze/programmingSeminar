@@ -1,4 +1,5 @@
 import java.awt.event.ActionEvent;
+import java.awt.event.ComponentEvent;
 import java.awt.event.ComponentListener;
 
 import javax.swing.JButton;
@@ -31,6 +32,26 @@ public class problem68 extends GraphicsProgram implements ComponentListener{
 		GLabel tt = new GLabel(txt.getText());
 		add(tt);
 		txt.setText("");
+		
+	}
+	@Override
+	public void componentHidden(ComponentEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void componentMoved(ComponentEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void componentResized(ComponentEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void componentShown(ComponentEvent arg0) {
+		// TODO Auto-generated method stub
 		
 	}
 }
