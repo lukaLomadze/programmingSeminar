@@ -23,8 +23,8 @@ public class problem68 extends GraphicsProgram {
 	}
 	public void actionPerformed(ActionEvent e){
 		
-		System.out.println(txt.getText());
-		
+		//System.out.println(txt.getText());
+		println(e.getActionCommand());
 		
 	}
 }
