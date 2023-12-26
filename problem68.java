@@ -10,7 +10,7 @@ import acm.program.GraphicsProgram;
 public class problem68 extends GraphicsProgram {
 	
 	JButton btn = new JButton("enter");
-		JTextField txt = new JTextField(10);
+	JTextField txt = new JTextField(10);
 	
 	public void run() {
 
@@ -18,7 +18,7 @@ public class problem68 extends GraphicsProgram {
 		add(txt, SOUTH);
 		add(btn, SOUTH);
 		
-		
+		txt.addActionListener(this);
 		
 	}
 	public void actionPerformed(ActionEvent e){
