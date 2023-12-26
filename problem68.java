@@ -13,12 +13,12 @@ public class problem68 extends GraphicsProgram {
 	JTextField txt = new JTextField(10);
 	
 	public void run() {
-
+txt.addActionListener(this);
 		
 		add(txt, SOUTH);
 		add(btn, SOUTH);
 		
-		txt.addActionListener(this);
+		
 		
 	}
 	public void actionPerformed(ActionEvent e){
