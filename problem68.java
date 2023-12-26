@@ -30,7 +30,7 @@ public class problem68 extends GraphicsProgram implements ComponentListener{
 		System.out.println(txt.getText());
 		
 		GLabel tt = new GLabel(txt.getText());
-		add(tt);
+		add(tt, 50,50);
 		txt.setText("");
 		
 	}
