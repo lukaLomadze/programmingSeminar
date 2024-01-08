@@ -27,9 +27,11 @@ public class problem68 extends GraphicsProgram {
 		
 	}
 	public void actionPerformed(ActionEvent e){
+		if(!txt.getText().equals("")){
 		GLabel tt = new GLabel(txt.getText());
 		 lastMessage += (int)tt.getAscent() * 3;
 		add(tt, 20, lastMessage);
+		}
 		txt.setText("");
 		
 	}
