@@ -12,9 +12,9 @@ import acm.program.GraphicsProgram;
 
 public class problem68 extends GraphicsProgram implements ComponentListener{
 	
-	JButton btn = new JButton("enter");
-	JTextField txt = new JTextField(10);
-	
+	private JButton btn = new JButton("enter");
+	private JTextField txt = new JTextField(10);
+	private int lastMessage = 0;
 	public void run() {
 
 		
@@ -28,13 +28,18 @@ public class problem68 extends GraphicsProgram implements ComponentListener{
 	}
 	public void actionPerformed(ActionEvent e){
 	
-		System.out.println(txt.getText());
+		//System.out.println(txt.getText());
 		
 		GLabel tt = new GLabel(txt.getText());
-		add(tt, 50,50);
+		 lastMessage += (int)tt.getAscent() * 3;
+		add(tt, 20, lastMessage);
 		txt.setText("");
 		
 	}
+	
+	
+	
+	
 	@Override
 	public void componentHidden(ComponentEvent arg0) {
 		// TODO Auto-generated method stub
