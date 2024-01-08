@@ -8,7 +8,6 @@ import acm.program.ConsoleProgram;
 
 public class problem65 extends ConsoleProgram {
 	public void run() {
-		HashMap<String, ArrayList<String>> names = new HashMap<String, ArrayList<String>>();
 		HashMap<String, ArrayList<String>> names2 = new HashMap<String, ArrayList<String>>();
 		while (true) {
 
@@ -19,12 +18,7 @@ public class problem65 extends ConsoleProgram {
 			StringTokenizer token = new StringTokenizer(a);
 			String friend1 = token.nextToken();
 			String friend2 = token.nextToken();
-			
-			names.putIfAbsent(friend1, new ArrayList<String>() );
 			names2.putIfAbsent(friend2, new ArrayList<String>() );
-		if(!names.get(friend1).contains(friend2)){
-			names.get(friend1).add(friend2);
-		}
 		if(!names2.get(friend2).contains(friend1)){
 			names2.get(friend2).add(friend1);
 		}
@@ -40,9 +34,6 @@ public class problem65 extends ConsoleProgram {
 				num = names2.get(i).size();
 				name = i;
 			}
-			
-			
-			
 		}
 		
 		println(name);
