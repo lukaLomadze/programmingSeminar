@@ -27,6 +27,7 @@ public class problem63 extends ConsoleProgram {
 		int num = 0;
 		for(String i : names.keySet()){
 			if(num< names.get(i).size()){
+				num = names.get(i).size();
 				name = i;
 			}
 			
