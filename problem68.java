@@ -23,7 +23,7 @@ public class problem68 extends GraphicsProgram implements ComponentListener{
 		
 		txt.addActionListener(this);
 		addActionListeners();
-		addComponentListener(this);
+		
 		
 	}
 	public void actionPerformed(ActionEvent e){
