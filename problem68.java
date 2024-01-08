@@ -40,7 +40,7 @@ public class problem68 extends GraphicsProgram {
 	public void actionPerformed(ActionEvent e){
 		if(!txt.getText().equals("")){
 		GLabel tt = new GLabel(txt.getText());
-		tt.setFont("-15");
+		tt.setFont("-20");
 		tt.setColor(Color.red);
 		 lastMessage += (int)tt.getAscent() * 3;
 		add(tt, 20, lastMessage);
