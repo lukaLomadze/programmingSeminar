@@ -10,7 +10,7 @@ import acm.program.GraphicsProgram;
 
 
 
-public class problem68 extends GraphicsProgram implements ComponentListener{
+public class problem68 extends GraphicsProgram {
 	
 	private JButton btn = new JButton("enter");
 	private JTextField txt = new JTextField(10);
@@ -27,9 +27,6 @@ public class problem68 extends GraphicsProgram implements ComponentListener{
 		
 	}
 	public void actionPerformed(ActionEvent e){
-	
-		//System.out.println(txt.getText());
-		
 		GLabel tt = new GLabel(txt.getText());
 		 lastMessage += (int)tt.getAscent() * 3;
 		add(tt, 20, lastMessage);
@@ -39,25 +36,4 @@ public class problem68 extends GraphicsProgram implements ComponentListener{
 	
 	
 	
-	
-	@Override
-	public void componentHidden(ComponentEvent arg0) {
-		// TODO Auto-generated method stub
-		
-	}
-	@Override
-	public void componentMoved(ComponentEvent arg0) {
-		// TODO Auto-generated method stub
-		
-	}
-	@Override
-	public void componentResized(ComponentEvent arg0) {
-		// TODO Auto-generated method stub
-		
-	}
-	@Override
-	public void componentShown(ComponentEvent arg0) {
-		// TODO Auto-generated method stub
-		
-	}
 }
