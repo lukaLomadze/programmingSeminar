@@ -12,17 +12,27 @@ import acm.program.GraphicsProgram;
 
 public class problem68 extends GraphicsProgram {
 	
-	private JButton btn = new JButton("enter");
-	private JTextField txt = new JTextField(10);
+	private JButton btn;
+	private JTextField txt;
 	private int lastMessage = 0;
-	public void run() {
-
-		
+	
+	
+	
+	public void init(){
+		btn = new JButton("enter");
+		 txt = new JTextField(10);
 		add(txt, SOUTH);
 		add(btn, SOUTH);
 		
 		txt.addActionListener(this);
 		addActionListeners();
+		
+	}
+	public void run() {
+
+		
+		
+		
 		
 		
 	}
