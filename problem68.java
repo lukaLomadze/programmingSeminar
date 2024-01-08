@@ -1,3 +1,4 @@
+import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ComponentEvent;
 import java.awt.event.ComponentListener;
@@ -39,6 +40,8 @@ public class problem68 extends GraphicsProgram {
 	public void actionPerformed(ActionEvent e){
 		if(!txt.getText().equals("")){
 		GLabel tt = new GLabel(txt.getText());
+		tt.setFont("-15");
+		tt.setColor(Color.red);
 		 lastMessage += (int)tt.getAscent() * 3;
 		add(tt, 20, lastMessage);
 		}
