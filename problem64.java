@@ -25,13 +25,6 @@ public class problem64 extends ConsoleProgram {
 			
 		}
 		
-		
-		
-		
-		
-		
-		
-		
 		for(String i : names.keySet()){
 		println( i + " : " + names.get(i).toString());
 			
@@ -40,24 +33,6 @@ public class problem64 extends ConsoleProgram {
 		}
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-//		String name = "";
-//		int num = 0;
-//		
-//		
-//		println(name);
-		
-		
-
 	}
 }
 
