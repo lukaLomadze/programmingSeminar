@@ -136,7 +136,7 @@ public class School {
 
 			for (String k : pupilSubject.get(i)) {
 
-				if (!teacherSubject.containsValue(k)) {
+				if (teacherSubject.containsValue(k)) {
 					pupilSubject.get(i).remove(k);
 				}
 
