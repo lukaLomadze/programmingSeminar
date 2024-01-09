@@ -92,18 +92,7 @@ private String findTeacher(String subject) {
 		
 		return pupilsTeachers.get(pupil).iterator();
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+		
 //	getPupils მეთოდს გადაეცემა მასწავლებლის სახელი და მან უნდა დააბრუნოს ამ
 //	მასწავლებლის ყველა სტუდენტზე იტერატორი. ანუ მხოლოდ იმ სტუდენტების
 //	სახელები, რომლებიც მის რომელიმე საგანს სწავლობენ. თუკი teacher სახელის მქონე
@@ -114,29 +103,21 @@ private String findTeacher(String subject) {
 	}
 	
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	//	მეთოდმა უნდა წაშალოს მასწავლებლის შესახებ ყველა ინფორმაცია. ამ მეთოდის
 //	გამოძახების, შემდეგ getTeachers მეთოდმა არ უნდა დააბრუნოს teacher სახელი არც
 //	ერთი სტუდენტისთვის.
 	public void removeTeacher(String teacher) {
 		teachers.remove(teacher);
-		
+			
+//		for(String i : pupilSubject.keySet()){
+//			//if(pupilSubject.get(i)) pupilSubject.get(i).remove(pu)
+//			
+//			for(String k : pupilSubject.get(i)){
+//				if(teacherSubject.get(teacher).contains(pupi))
+//				
+//			}
+//			
+//		}
 		
 		for(String i : teacherSubject.keySet()){
 			if(i.equals(teacher)){
@@ -159,11 +140,7 @@ private String findTeacher(String subject) {
 		
 		//pupilSubject
 		
-		
-		for(String i : pupilSubject.keySet()){
-			
-			
-		}
+	
 		
 	}
 	
