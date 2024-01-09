@@ -159,6 +159,12 @@ private String findTeacher(String subject) {
 		
 		//pupilSubject
 		
+		
+		for(String i : pupilSubject.keySet()){
+			
+			
+		}
+		
 	}
 	
 }
