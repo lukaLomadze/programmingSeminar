@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 
 public class School {
-private HashMap<String, String> teacherSubject; 
+private HashMap<String, ArrayList<String>> teacherSubject; 
 private HashMap<String, ArrayList<String>> pupilSubject; 	
 private HashMap<String, ArrayList<String>> pupilsTeachers;
 private HashMap<String, ArrayList<String>>  teachersPupils ; 
@@ -18,7 +18,7 @@ private ArrayList<String> teachers;
 //	კონსტრუქტორს არაფერი არ გადაეცემა. აქ შეგიძლიათ ინიციალიზაცია გაუკეთოთ
 //	თქვენთვის საჭირო ცვლადებს.
 	public School() {
-		  teacherSubject = new HashMap<String, String>(); 
+		  teacherSubject = new HashMap<String, ArrayList<String>>(); 
 		  pupilSubject = new HashMap<String, ArrayList<String>>(); 
 		   pupilsTeachers = new HashMap<String, ArrayList<String>>();
 		   teachersPupils  = new HashMap<String, ArrayList<String>>();
@@ -43,8 +43,9 @@ private ArrayList<String> teachers;
 //	თუკი teacher სახელის მქონე მასწავლებელი არ არის აქამდე დამატებული, მაშინ
 //	მეთოდმა არაფერი არ უნდა გააკეთოს.
 	public void addSubject(String teacher, String subject) {
-		if(teachers.contains(teacher)) teacherSubject.put(teacher, subject);
-		
+		//if(teachers.contains(teacher)) teacherSubject.put(teacher, subject);
+		teacherSubject.putIfAbsent(teacher, new ArrayList<String>());
+		teacherSubject.get(teacher).add(subject);
 		
 	}
 	
@@ -71,8 +72,9 @@ private String findTeacher(String subject) {
 		
 	///????????????????????????????	
 		for(String i : teacherSubject.keySet()){
-			if(subject.equals(teacherSubject.get(i))){
+			if(teacherSubject.get(i).contains(subject)){
 				return i;
+				
 			}
 			
 		}
@@ -111,12 +113,7 @@ private String findTeacher(String subject) {
 		return teachersPupils.get(teacher).iterator() ;
 	}
 	
-//private ArrayList<String> findPupils(String teacher) {
-//	ArrayList<String> pupils = new ArrayList<String>();
-//	
-//	
-//		return pupils;
-//	}
+
 
 
 
