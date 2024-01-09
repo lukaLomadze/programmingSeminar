@@ -150,6 +150,12 @@ private String findTeacher(String subject) {
 			}
 			
 		}
+		for(String i : teachersPupils.keySet()){
+			if(teachersPupils.get(i).contains(teacher)){
+				teachersPupils.get(i).remove(teacher);
+			}
+			
+		}
 		
 		
 		
