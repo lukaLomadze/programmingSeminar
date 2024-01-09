@@ -59,12 +59,16 @@ private ArrayList<String> teachers;
 		
 		String name = findTeacher(subject);
 		pupilsTeachers.putIfAbsent(pupil, new ArrayList<String>());
-		pupilsTeachers.get(pupil).add(name);
+		if(!pupilsTeachers.get(pupil).contains(name)){
+			pupilsTeachers.get(pupil).add(name);
+			}
+		
 		
 		
 		teachersPupils.putIfAbsent(name,new ArrayList<String>());
+		if(!teachersPupils.get(name).contains(pupil)){
 		teachersPupils.get(name).add(pupil);
-		
+		}
 		
 	}
 	
