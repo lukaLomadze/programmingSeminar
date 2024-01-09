@@ -5,6 +5,7 @@ import acm.program.ConsoleProgram;
 public class SchoolTst extends ConsoleProgram {
 	public void run() {
 		School school = new School();
+		for(int l = 0; l<0;l++){
 		school.addTeacher("mari");
 		school.addTeacher("nino");
 
@@ -37,7 +38,7 @@ public class SchoolTst extends ConsoleProgram {
 		print("ACTUAL: ");
 		t = school.getTeachers("ana");
 		printIteratorElems(t);
-
+		}
 	}
 	
 	private void printIteratorElems(Iterator<String> it) {
