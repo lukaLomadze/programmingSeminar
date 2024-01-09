@@ -126,12 +126,7 @@ private String findTeacher(String subject) {
 			}
 			
 		}
-		for(String i : teacherSubject.keySet()){
-			if(i.equals(teacher)){
-				teacherSubject.remove(teacher);
-			}
-			
-		}
+		
 		
 		for(String i : teachersPupils.keySet()){
 			if(teachersPupils.get(i).contains(teacher)){
@@ -139,7 +134,12 @@ private String findTeacher(String subject) {
 			}
 			
 		}
-		
+		for(String i : teacherSubject.keySet()){
+			if(i.equals(teacher)){
+				teacherSubject.remove(teacher);
+			}
+			
+		}
 		//pupilSubject
 		
 	
