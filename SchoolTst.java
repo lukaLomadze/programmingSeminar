@@ -29,7 +29,7 @@ public class SchoolTst extends ConsoleProgram {
 		Iterator<String> t = school.getTeachers("ana");
 		printIteratorElems(t);
 
-//		println("removing mari");
+		println("removing mari");
 //		school.removeTeacher("mari");
 		
 		println("\nTest 3: Teachers of: ana");
