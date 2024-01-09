@@ -108,16 +108,7 @@ private String findTeacher(String subject) {
 //	ერთი სტუდენტისთვის.
 	public void removeTeacher(String teacher) {
 		teachers.remove(teacher);
-			
-//		for(String i : pupilSubject.keySet()){
-//			//if(pupilSubject.get(i)) pupilSubject.get(i).remove(pu)
-//			
-//			for(String k : pupilSubject.get(i)){
-//				if(teacherSubject.get(teacher).contains(pupi))
-//				
-//			}
-//			
-//		}
+		
 		
 		
 		for(String i : pupilsTeachers.keySet()){
@@ -138,13 +129,21 @@ private String findTeacher(String subject) {
 		teacherSubject.remove(teacher);
 		}
 		
-//		for(String i : teacherSubject.keySet()){
-//			if(i.equals(teacher)){
-//				teacherSubject.remove(teacher);
-//			}
-//			
-//		}
-		//pupilSubject
+	
+		for(String i : pupilSubject.keySet()){
+			
+			
+			for(String k : pupilSubject.get(i)){
+				for(String t : teacherSubject.keySet()){
+				if(	!teacherSubject.containsValue(k)){
+					pupilSubject.get(i).remove(k);
+				}
+				}
+				//if(teacherSubject.get(teacher).contains(pupi))
+				
+			}
+			
+		}
 		
 	
 		
