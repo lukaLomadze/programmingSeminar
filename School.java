@@ -136,7 +136,7 @@ private String findTeacher(String subject) {
 			for(String k : pupilSubject.get(i)){
 				for(String t : teacherSubject.keySet()){
 				if(	!teacherSubject.containsValue(k)){
-					pupilSubject.get(i).remove(k);
+				//	pupilSubject.get(i).remove(k);
 				}
 				}
 				//if(teacherSubject.get(teacher).contains(pupi))
