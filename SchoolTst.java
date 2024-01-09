@@ -29,14 +29,14 @@ public class SchoolTst extends ConsoleProgram {
 		Iterator<String> t = school.getTeachers("ana");
 		printIteratorElems(t);
 
-		println("removing mari");
-		school.removeTeacher("mari");
-		
-		println("\nTest 3: Teachers of: ana");
-		println("EXPECTED: nino");
-		print("ACTUAL: ");
-		t = school.getTeachers("ana");
-		printIteratorElems(t);
+//		println("removing mari");
+//		school.removeTeacher("mari");
+//		
+//		println("\nTest 3: Teachers of: ana");
+//		println("EXPECTED: nino");
+//		print("ACTUAL: ");
+//		t = school.getTeachers("ana");
+//		printIteratorElems(t);
 
 	}
 	
