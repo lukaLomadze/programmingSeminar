@@ -15,10 +15,10 @@ public class AddSpaces extends ConsoleProgram {
 			a = l;
 
 		}
-
+println(a);
+	
 	}
 
-	println(a);
 	
 	
 	
@@ -32,4 +32,4 @@ public class AddSpaces extends ConsoleProgram {
 	
 	
 }
-}
+
