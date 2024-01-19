@@ -11,7 +11,7 @@ public class Twodimmension  extends ConsoleProgram {
 			
 			
 		}
-		println(arr.toString());
+		println(arr[0].toString());
 		
 		
 	}
