@@ -17,7 +17,7 @@ public void run(){
 				String l = c + " ";
 				c 	= l;
 			}else{
-				String l = c + a.substring(k-1,k);
+				String l = c + a.substring(k,k+1);
 			c = l;
 			
 			}
