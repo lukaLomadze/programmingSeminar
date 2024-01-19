@@ -12,14 +12,10 @@ public void run(){
 	int[] b = {1,5};
 	for(int i : b){
 
-		for(int k = 0; k < a.length(); k++){
+		for(int k = 0; k < a.length() +i; k++){
 			if(i == k){
-				String l = c + " " + a.substring(k,k+1);
-				c 	= l;
-			}else{
-				String l = c + a.substring(k,k+1);
-			c = l;
-			
+				String l =  a.substring(k, k+1) + " " + a.substring(k+1);
+				a=k;
 			}
 			
 		}
