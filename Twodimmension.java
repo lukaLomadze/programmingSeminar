@@ -8,7 +8,7 @@ public class Twodimmension  extends ConsoleProgram {
 		for(int i =0; i< arr.length; i++){
 			arr[i]= new int[b[i]];
 		}
-		println(arr);
+		println(b.toString());
 		
 		
 	}
