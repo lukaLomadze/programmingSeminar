@@ -14,9 +14,11 @@ public void run(){
 
 		for(int k = 0; k < a.length(); k++){
 			if(i == k){
-				c += " ";	
+				String l = c + " ";
+				c 	= l;
 			}else{
-			c+= a.substring(k-1,k);
+				String l = c + a.substring(k-1,k);
+			c = l;
 			
 			}
 			
