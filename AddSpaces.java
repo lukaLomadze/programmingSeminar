@@ -15,7 +15,7 @@ public void run(){
 		for(int k = 0; k < a.length() +i; k++){
 			if(i == k){
 				String l =  a.substring(k, k+1) + " " + a.substring(k+1);
-				a=k;
+				a=l;
 			}
 			
 		}
