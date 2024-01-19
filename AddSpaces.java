@@ -18,7 +18,7 @@ public class AddSpaces extends ConsoleProgram {
 
 	}
 
-	println(c);
+	println(a);
 	
 	
 	
