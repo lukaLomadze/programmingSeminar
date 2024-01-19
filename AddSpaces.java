@@ -11,7 +11,7 @@ public class AddSpaces extends ConsoleProgram {
 		String c = "";
 		int[] b = { 1, 5 };
 		for (int i =0; i< b.length; i++) {
-			String l = a.substring(0, b[i] + i) + " " + a.substring(b[i] + i + 1);
+			String l = a.substring(0, b[i] + i) + " " + a.substring(b[i] + i );
 			a = l;
 
 		}
