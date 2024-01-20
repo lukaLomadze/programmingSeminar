@@ -22,5 +22,6 @@ public void run(){
 	}else{
 	println(ret);
 	}
+	println(ret);
 }
 }
