@@ -17,7 +17,7 @@ public void run(){
 		
 		
 	}
-	if(s.length() <= ret.length()){
+	if(s.length() >= ret.length()){
 		println(s);
 	}else{
 	println(ret);
