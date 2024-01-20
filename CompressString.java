@@ -13,7 +13,7 @@ public void run(){
 	}
 	String ret = "";
 	for(char t : a.keySet()){
-		ret+= t + a.get(t);
+		ret+= "" +t + a.get(t);
 		
 		
 	}
