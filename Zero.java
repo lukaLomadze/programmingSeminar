@@ -16,7 +16,7 @@ public class Zero extends ConsoleProgram{
 		for(int k = 0; k < nums[0].length; k++){
 		
 			if(nums[i][k]==0){
-				oo+= ""+ nums[0].length * i + k +" ";
+				oo+= ""+ i + "," +k+" ";
 			}
 			
 			
@@ -30,9 +30,9 @@ public class Zero extends ConsoleProgram{
 	StringTokenizer tok = new StringTokenizer(oo);
 	
 	while(tok.hasMoreTokens()){
-		StringTokenizer token = new StringTokenizer(tok.nextToken());
-		int a = Integer.parseInt(token.nextToken()) / nums[0].length;
-		int b = Integer.parseInt(token.nextToken()) % nums[0].length;
+		StringTokenizer token = new StringTokenizer(tok.nextToken(), ",");
+		int a = Integer.parseInt(token.nextToken()) ;
+		int b = Integer.parseInt(token.nextToken()) ;
 		
 		zeroMatrix(a,b,nums);
 		
