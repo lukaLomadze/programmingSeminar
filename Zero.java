@@ -41,10 +41,17 @@ public class Zero extends ConsoleProgram{
 		
 	}
 	
+	for(int i = 0; i < nums.length; i++){
+		for(int k = 0; k < nums[0].length; k++){
+		print(nums[i][k] + " ");
+		
+		}	
+		println();
+		
+	}
 	
 	
 	
-	println(nums == nums2);
 	
 	}
 
